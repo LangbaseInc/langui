@@ -39,7 +39,7 @@ export default function HeroFeatures() {
 
           <p class="text-slate-400">
             Zero dependencies. No installations required. Pick your component.
-            Copy'n paste it into your project and see the magic.
+            Copy&apos;n paste it into your project and see the magic.
           </p>
         </div>
 
