@@ -1,0 +1,32 @@
+<section class="max-w-3xl rounded-3xl shadow-xl dark:shadow-none">
+  <label
+    for="file-input"
+    class="flex w-full cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed border-slate-300 bg-slate-100 py-16 text-slate-500 hover:bg-slate-200 dark:border-slate-300/20 dark:bg-slate-900 dark:text-slate-400 dark:hover:bg-slate-800"
+  >
+    <div class="flex flex-col items-center justify-center">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="mb-3 h-10 w-10"
+        viewBox="0 0 24 24"
+        stroke-width="2"
+        stroke="currentColor"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path
+          d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1"
+        ></path>
+        <path d="M9 15l3 -3l3 3"></path>
+        <path d="M12 12l0 9"></path>
+      </svg>
+      <p class="mb-2 text-sm">
+        <span class="font-semibold text-blue-600">Click to browse</span> or drag
+        & drop
+      </p>
+      <p class="text-xs">JPG or PNG only. Max size: 25 MB</p>
+    </div>
+    <input id="file-input" type="file" class="hidden" />
+  </label>
+</section>
