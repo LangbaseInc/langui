@@ -9,7 +9,7 @@ export default function PreviewIframe({
   return (
     <div className={showPreview ? 'block' : 'hidden'}>
       <iframe
-        className={`h-[400px] w-full rounded-lg ring-2 ring-gray-900 lg:h-[600px] lg:transition-all ${
+        className={`h-[400px] w-full rounded-lg border border-slate-200/20 lg:h-[600px] lg:transition-all ${
           previewDark ? 'bg-gray-950' : 'bg-slate-50'
         }`}
         loading="lazy"
