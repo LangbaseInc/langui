@@ -19,6 +19,7 @@ export default function CollectionCard({ componentData }) {
     Toggles: Icons.Toggles,
     Sidebars: Icons.Sidebars,
     CardsforPrompts: Icons.PromptCards,
+    CopytoClipboard: Icons.Copy,
   }
   const Icon = IconData[componentData.title.replace(/\s/g, '')]
 
