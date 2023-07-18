@@ -1,10 +1,7 @@
 import matter from 'gray-matter'
 import { join } from 'path'
 import { promises as fs } from 'fs'
-
-import Container from '@component/Container'
 import HeroBanner from '@component/HeroBanner'
-import CollectionGrid from '@component/CollectionGrid'
 
 async function getComponents() {
   const componentsPath = join(process.cwd(), '/src/data/components')
@@ -64,22 +61,6 @@ export default async function Page() {
   return (
     <>
       <HeroBanner />
-
-      {/* <Container classNames="pb-8 lg:pb-12">
-        <ul className="space-y-8">
-          {componentsByCategory.map(({ categoryTitle, componentItems }) => {
-            return (
-              <li className="space-y-4" key={categoryTitle}>
-                <h2 className="text-lg font-bold text-gray-900 sm:text-xl">
-                  {categoryTitle}
-                </h2>
-
-                <CollectionGrid componentItems={componentItems} />
-              </li>
-            )
-          })}
-        </ul>
-      </Container> */}
     </>
   )
 }
