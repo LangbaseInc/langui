@@ -104,7 +104,7 @@ export default function HeaderSearch() {
       </form>
 
       {showDropdown && (
-        <div className="absolute right-0 top-14 z-50 w-64 rounded-lg border border-slate-200/10 bg-slate-800 shadow-lg">
+        <div className="absolute right-0 top-14 z-50 w-full rounded-lg border border-slate-200/10 bg-slate-800 shadow-lg">
           {!!searchResults.length ? (
             <ul className="max-h-64 space-y-1 overflow-auto p-2">
               {searchResults.map((searchResult) => (
@@ -125,7 +125,7 @@ export default function HeaderSearch() {
             </ul>
           ) : (
             <div className="p-4 text-center text-sm text-slate-500">
-              Uh-no! There are no results 😢
+              No results found
             </div>
           )}
         </div>
