@@ -124,7 +124,7 @@ export default function ComponentPreview({
           componentHash={componentHash}
         />
 
-        <div className="lg:flex lg:items-end">
+        <div className="lg:flex lg:flex-row-reverse lg:items-end">
           {componentCode && (
             <div className="flex items-end gap-4">
               <PreviewView
@@ -145,7 +145,7 @@ export default function ComponentPreview({
             </div>
           )}
 
-          <div className="hidden lg:flex lg:flex-1 lg:items-end lg:justify-end lg:gap-4">
+          <div className="lg:justify-en hidden lg:flex lg:flex-1 lg:gap-4">
             <PreviewBreakpoints
               handleSetPreviewWidth={setPreviewWidth}
               previewWidth={previewWidth}
