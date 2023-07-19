@@ -1,26 +1,10 @@
-<!-- Button above input -->
-<div class="mt-4 flex justify-center">
-  <button
-    class="inline-flex items-center gap-x-2 rounded-lg bg-slate-200 p-2 text-xs text-slate-600 hover:bg-blue-600 hover:text-slate-200 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-blue-600 sm:text-sm"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="inline h-4 w-4"
-      viewBox="0 0 24 24"
-      stroke-width="2"
-      stroke="currentColor"
-      fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-      <path
-        d="M19.933 13.041a8 8 0 1 1 -9.925 -8.788c3.899 -1 7.935 1.007 9.425 4.747"
-      ></path>
-      <path d="M20 4v5h-5"></path>
-    </svg>
-    Regenerate response
-  </button>
+<!-- Loading indicator -->
+<div class="mt-4 flex justify-center" aria-hidden="true">
+  <div class="flex animate-pulse space-x-2">
+    <div class="h-2 w-2 rounded-full bg-slate-600"></div>
+    <div class="h-2 w-2 rounded-full bg-slate-600"></div>
+    <div class="h-2 w-2 rounded-full bg-slate-600"></div>
+  </div>
 </div>
 <!-- Rounded input -->
 <form>
@@ -28,7 +12,7 @@
   <div class="relative">
     <button
       type="button"
-      class="absolute inset-y-0 left-0 flex items-center pl-3 text-slate-500 hover:text-blue-500 dark:text-slate-400 dark:hover:text-blue-500"
+      class="absolute inset-y-0 left-0 flex items-center pl-3 text-slate-500 hover:text-blue-500"
     >
       <svg
         aria-hidden="true"
@@ -53,14 +37,14 @@
     </button>
     <textarea
       id="chat-input"
-      class="mt-2 block w-full resize-none rounded-xl border-none bg-slate-200 p-4 pl-10 text-sm text-slate-900 shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-slate-800 dark:text-slate-200 dark:placeholder-slate-400 dark:focus:ring-blue-500 sm:text-base"
+      class="mt-4 block w-full resize-none rounded-xl border-none bg-slate-200 p-4 pl-10 pr-20 text-sm text-slate-900 shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 sm:text-base"
       placeholder="Enter your prompt"
       rows="1"
       required
     ></textarea>
     <button
       type="submit"
-      class="absolute bottom-2 right-2.5 rounded-lg bg-blue-700 px-4 py-2 text-sm font-medium text-slate-200 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 sm:text-base"
+      class="absolute bottom-2 right-2.5 rounded-lg bg-blue-700 px-4 py-2 text-sm font-medium text-slate-200 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:text-base"
     >
       Send <span class="sr-only">Send message</span>
     </button>

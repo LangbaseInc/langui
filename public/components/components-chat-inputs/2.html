@@ -1,21 +1,21 @@
 <form>
-  <label for="chat-input" class="sr-only">Enter your prompt</label>
-  <div class="relative">
-    <textarea
+  <label for="chat-input" class="sr-only">Enter prompt</label>
+  <div class="flex gap-x-2">
+    <input
       id="chat-input"
-      class="block w-full resize-none rounded-xl border-none bg-slate-200 p-4 text-sm text-slate-900 shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 sm:text-base"
-      placeholder="Enter your prompt"
+      type="text"
+      class="w-full rounded-lg border border-slate-300 bg-slate-200 p-3 text-sm text-slate-800 shadow-md focus:border-blue-600 focus:outline-none focus:ring-1 focus:ring-blue-600 dark:border-slate-200/10 dark:bg-slate-800 dark:text-slate-200 dark:placeholder-slate-400 dark:focus:border-blue-600 sm:text-base"
+      placeholder="Enter prompt"
       rows="1"
       required
-    ></textarea>
+    />
     <button
       type="submit"
-      class="absolute bottom-2 right-2.5 rounded-lg bg-blue-700 p-2 text-sm font-medium text-slate-200 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:text-base"
+      class="rounded-lg border border-transparent bg-blue-600 px-3 py-1 text-slate-200 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6"
-        aria-hidden="true"
+        class="h-5 w-5"
         viewBox="0 0 24 24"
         stroke-width="2"
         stroke="currentColor"
@@ -29,7 +29,7 @@
           d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5"
         ></path>
       </svg>
-      <span class="sr-only">Send message</span>
+      <span class="sr-only">Enter prompt</span>
     </button>
   </div>
 </form>
