@@ -13,6 +13,7 @@ export default function CollectionCard({ componentData }) {
     Badges: Icons.Badges,
     ChatContainers: Icons.ChatContainers,
     ChatInputs: Icons.ChatInputs,
+    ChatSuggestions: Icons.ChatSuggestions,
     ChatMessages: Icons.ChatMessages,
     Inputs: Icons.Inputs,
     Pricing: Icons.Pricing,
