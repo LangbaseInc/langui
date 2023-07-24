@@ -15,12 +15,10 @@ export default function HeroBanner({ children, subtitle, title }) {
           <div className="mx-auto max-w-7xl px-6 py-24 sm:pb-32 lg:flex lg:px-3 lg:py-32 xl:px-6">
             <div className="max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-lg lg:pt-8 xl:max-w-xl">
               <BrandLogo withText={false} size={'16'} />
-              <div className="mt-12 lg:mt-16">
-                <a href="#" className="inline-flex space-x-6">
-                  <span className="rounded-full bg-blue-500/10 px-3 py-1 text-sm font-semibold leading-6 text-blue-400 ring-1 ring-inset ring-blue-500/20">
-                    Tailwind V3.3.1
-                  </span>
-                </a>
+              <div className="mt-12 lg:mt-12">
+                <span className="rounded-full bg-blue-500/10 px-3 py-1 text-sm font-semibold leading-6 text-blue-400 ring-1 ring-inset ring-blue-500/20">
+                  The perfect UI for your AI
+                </span>
               </div>
               <h1 className="mt-10 text-5xl font-bold tracking-tight text-slate-200 sm:text-6xl">
                 Beautiful components for your GPT projects
@@ -30,7 +28,7 @@ export default function HeroBanner({ children, subtitle, title }) {
                 components tailored for your AI and GPT projects. Focus on
                 building the next best project and let it handle the UI.
               </p>
-              <div className="mt-10 flex flex-col gap-x-6 gap-y-4 sm:flex-row sm:items-center">
+              <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row sm:items-center">
                 <a
                   href="/components"
                   className="inline-flex justify-center rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-slate-50 transition-colors  hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"

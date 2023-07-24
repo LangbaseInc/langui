@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
         <div className="mt-6 flex flex-col items-center gap-y-4 md:flex-row md:justify-between">
           <p className="max-w-md text-center text-sm leading-relaxed text-slate-400">
-            Beautiful hand crafted Tailwind components for your GPT projects
+            Beautifully crafted Tailwind components for your GPT projects
           </p>
           <p className="max-w-md text-sm leading-relaxed text-slate-400">
             Created by{' '}

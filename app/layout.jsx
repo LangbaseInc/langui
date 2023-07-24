@@ -1,9 +1,16 @@
 import 'prismjs/themes/prism-okaidia.css'
 import '@style/site.css'
-
+import { DM_Sans } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import Footer from '@component/Footer'
 import Header from '@component/Header'
-import HeaderBanner from '@component/HeaderBanner'
+
+const poppins = Poppins({
+  variable: '--font-poppins',
+  display: 'swap',
+  subsets: ['latin'],
+  weight: ['400', '500', '700', '800', '900'],
+})
 
 export const metadata = {
   title: 'Free Open Source Tailwind CSS Components | GPTUI',
@@ -28,7 +35,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html className="h-full scroll-smooth" lang="en" dir="ltr">
+    <html
+      className={`${poppins.variable} h-full scroll-smooth`}
+      lang="en"
+      dir="ltr"
+    >
       <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
