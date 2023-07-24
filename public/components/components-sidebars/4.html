@@ -5,15 +5,32 @@
       class="relative h-screen w-60 overflow-y-auto border-l border-slate-300 bg-slate-50 py-8 dark:border-slate-700 dark:bg-slate-900 sm:w-64"
     >
       <div
-        class="flex items-center gap-x-2 px-4 text-slate-800 dark:text-slate-200"
+        class="mb-4 flex items-center gap-x-2 px-2 text-slate-800 dark:text-slate-200"
       >
+        <button class="inline-flex rounded-lg p-1 hover:bg-slate-700">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path
+              d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
+            ></path>
+            <path d="M9 4v16"></path>
+            <path d="M14 10l2 2l-2 2"></path>
+          </svg>
+          <span class="sr-only">Close settings sidebar</span>
+        </button>
         <h2 class="text-lg font-medium">Settings</h2>
       </div>
 
       <!-- Select -->
-      <div
-        class="mt-4 border-t border-slate-300 px-2 py-4 text-slate-800 dark:border-slate-700 dark:text-slate-200"
-      >
+      <div class="px-2 py-4 text-slate-800 dark:text-slate-200">
         <label for="select-mode" class="px-2 text-sm font-medium">Mode</label>
         <select
           name="select-mode"
