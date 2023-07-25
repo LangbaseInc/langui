@@ -26,21 +26,21 @@ export default function CollectionCard({ componentData }) {
 
   return (
     <Link href={`/${componentData.category}/${componentData.slug}`}>
-      <div className="group relative block h-full backdrop-blur-sm">
-        <div className="rounded-lg border-2 border-transparent bg-slate-800/20 transition-colors group-hover:border-blue-600">
-          <div className="flex  justify-between p-4 sm:p-6">
+      <div className="group relative block h-full backdrop-blur-xl">
+        <div className="rounded-lg border-2 border-transparent bg-slate-800/20 transition-colors group-hover:bg-blue-600">
+          <div className="flex justify-between p-4 sm:p-6">
             <div className="flex flex-col">
-              <h2 className="font-medium text-slate-200 sm:text-lg">
+              <h2 className="font-medium text-slate-200 sm:text-lg group-hover:text-white">
                 {componentData.title}
               </h2>
-              <p className="font-meium mt-2 text-sm text-slate-500">
+              <p className="font-meium mt-2 text-sm text-slate-500 group-hover:text-white/60">
                 {componentCount}
               </p>
             </div>
             <span
               aria-hidden="true"
               role="img"
-              className="mx-2 text-lg text-slate-200 sm:text-2xl"
+              className="mx-2 text-lg text-slate-200 sm:text-2xl group-hover:text-white group-hover:animate-pulse"
             >
               {Icon}
             </span>
