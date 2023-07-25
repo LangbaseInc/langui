@@ -20,7 +20,7 @@ export const metadata = {
     description:
       'Open Source Tailwind CSS components for your AI and GPT projects.',
     url: 'https://www.LangUI.dev/',
-    siteName: 'GPTUI',
+    siteName: 'LangUI',
     type: 'website',
     image: 'https://www.LangUI.dev/og.jpg',
   },
