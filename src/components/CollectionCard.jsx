@@ -33,9 +33,6 @@ export default function CollectionCard({ componentData }) {
               <h2 className="font-medium text-slate-200 sm:text-lg">
                 {componentData.title}
               </h2>
-              {/* <p className="mt-4 text-sm leading-6 text-slate-400">
-                {componentData.description}
-              </p> */}
               <p className="font-meium mt-2 text-sm text-slate-500">
                 {componentCount}
               </p>
