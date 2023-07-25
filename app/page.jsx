@@ -39,7 +39,6 @@ async function getComponents() {
               title: componentData.title,
               slug: componentSlugTrue,
               category: componentData.category,
-              emoji: componentData.emoji,
               count: componentCount,
             }
           })
