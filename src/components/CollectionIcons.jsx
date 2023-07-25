@@ -63,7 +63,7 @@ export const Badges = (
     <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
   </svg>
 )
-export const ChatContainers = (
+export const PromptContainers = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="h-6 w-6"
@@ -81,7 +81,7 @@ export const ChatContainers = (
     <path d="M16 5.25l-8 4.5"></path>
   </svg>
 )
-export const Inputs = (
+export const PromptInputs = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="h-6 w-6"
@@ -98,7 +98,7 @@ export const Inputs = (
   </svg>
 )
 
-export const ChatInputs = (
+export const PromptMessageInputs = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     class="h-6 w-6"
@@ -117,7 +117,7 @@ export const ChatInputs = (
   </svg>
 )
 
-export const ChatMessages = (
+export const PromptMessages = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="h-6 w-6"
@@ -216,7 +216,7 @@ export const Copy = (
   </svg>
 )
 
-export const ChatSuggestions = (
+export const PromptSuggestions = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     class="h-6 w-6"

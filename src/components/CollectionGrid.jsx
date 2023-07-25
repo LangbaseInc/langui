@@ -1,19 +1,19 @@
 import CollectionCard from '@component/CollectionCard'
 
 export default function CollectionGrid({ componentItems }) {
-  const sortByChatKeyword = (first, second) => {
-    const hasChatFirst = first.title.includes('Chat')
-    const hasChatSecond = second.title.includes('Chat')
+  const sortByPromptKeyword = (first, second) => {
+    const hasPromptFirst = first.title.includes('Prompt')
+    const hasPromptSecond = second.title.includes('Prompt')
 
-    if (hasChatFirst && !hasChatSecond) {
+    if (hasPromptFirst && !hasPromptSecond) {
       return -1
-    } else if (!hasChatFirst && hasChatSecond) {
+    } else if (!hasPromptFirst && hasPromptSecond) {
       return 1
     } else {
       return 0
     }
   }
-  const arrangedComponents = componentItems.sort(sortByChatKeyword)
+  const arrangedComponents = componentItems.sort(sortByPromptKeyword)
 
   return (
     <ul className="grid grid-cols-1 gap-x-4 gap-y-6 sm:grid-cols-2 md:grid-cols-3">
