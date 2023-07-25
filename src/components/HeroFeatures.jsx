@@ -3,16 +3,12 @@ export default function HeroFeatures() {
     <div class="mx-auto mb-10 max-w-7xl px-6 lg:px-3 xl:px-6">
       <h2
         id="features"
-        class="text-5xl font-bold tracking-tight text-slate-200 sm:text-6xl"
+        class="text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 sm:text-6xl"
       >
-        <span class="underline decoration-blue-600">Ready to use</span>{' '}
-        components
-      </h2>
-
-      <p class="mt-6 text-base leading-8 text-slate-300 sm:text-lg">
-        Accelerate your development with pre-built, easy to integrate, and
+        Ready to use <span class="underline decoration-blue-600">AI Components</span>{' '}
+        components. Accelerate your development with pre-built, easy to integrate, and
         reusable UI components.
-      </p>
+      </h2>
 
       <div class="mt-20 grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 md:max-w-none md:grid-cols-2 xl:grid-cols-3 xl:gap-16">
         <div class="space-y-2">
