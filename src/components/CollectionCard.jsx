@@ -27,7 +27,7 @@ export default function CollectionCard({ componentData }) {
   return (
     <Link href={`/${componentData.category}/${componentData.slug}`}>
       <div className="group relative block h-full backdrop-blur-xl">
-        <div className="rounded-lg border-2 border-transparent bg-slate-800/20 transition-colors group-hover:bg-blue-600">
+        <div className="rounded-xl border-2 border-transparent bg-slate-800/20 transition-colors group-hover:bg-blue-600">
           <div className="flex justify-between p-4 sm:p-6">
             <div className="flex flex-col">
               <h2 className="font-medium text-slate-200 sm:text-lg group-hover:text-white">
