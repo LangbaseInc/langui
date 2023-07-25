@@ -20,8 +20,8 @@ export default function HeroBanner({ children, subtitle, title }) {
                   The perfect UI for your AI
                 </span>
               </div>
-              <h1 className="mt-10 text-5xl font-bold tracking-tight text-slate-200 sm:text-6xl">
-                Beautiful components for your GPT projects
+              <h1 className="mt-10 text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 sm:text-6xl">
+                Beautiful components for your AI projects
               </h1>
               <p className="mt-6 text-base leading-8 text-slate-300 sm:text-lg">
                 LangUI is an Open Source Tailwind library with free to use
