@@ -24,7 +24,7 @@ export default function HeroBanner({ children, subtitle, title }) {
                 Beautiful components for your GPT projects
               </h1>
               <p className="mt-6 text-base leading-8 text-slate-300 sm:text-lg">
-                GPT UI is an Open Source Tailwind library with free to use
+                LangUI is an Open Source Tailwind library with free to use
                 components tailored for your AI and GPT projects. Focus on
                 building the next best project and let it handle the UI.
               </p>
@@ -56,19 +56,6 @@ export default function HeroBanner({ children, subtitle, title }) {
           </div>
         </div>
         <HeroFeatures />
-        {/* <Container classNames="px-4 max-w-screen-xl">
-            <div className="flex flex-col space-y-4 space-y-reverse">
-              <h1 className="order-last text-lg text-slate-200">{subtitle}</h1>
-
-              <h2 className="text-4xl font-bold text-slate-200 sm:text-6xl">
-                {title}
-              </h2>
-            </div>
-
-            <p className="mt-6 max-w-lg text-base/relaxed text-slate-200">
-              {children}
-            </p>
-          </Container> */}
       </Container>
     </section>
   )
