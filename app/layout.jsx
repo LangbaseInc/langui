@@ -1,6 +1,5 @@
 import 'prismjs/themes/prism-okaidia.css'
 import '@style/site.css'
-import { DM_Sans } from 'next/font/google'
 import { Poppins } from 'next/font/google'
 import Footer from '@component/Footer'
 import Header from '@component/Header'
@@ -13,23 +12,23 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: 'Free Open Source Tailwind CSS Components | GPTUI',
+  title: 'UI for your AI | LangUI',
   description:
-    'Free Tailwind CSS components that can be used in your next project.',
+    'Open Source Tailwind CSS components for your AI and GPT projects.',
   openGraph: {
-    title: 'Free Open Source Tailwind CSS Components | GPTUI',
+    title: 'UI for your AI | LangUI',
     description:
-      'Free Tailwind CSS components that can be used in your next project.',
-    url: 'https://www.gptui.dev/',
+      'Open Source Tailwind CSS components for your AI and GPT projects.',
+    url: 'https://www.LangUI.dev/',
     siteName: 'GPTUI',
     type: 'website',
-    image: 'https://www.gptui.dev/og.jpg',
+    image: 'https://www.LangUI.dev/og.jpg',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Free Open Source Tailwind CSS Components | GPTUI',
+    title: 'UI for your AI | LangUI',
     description:
-      'Free Tailwind CSS components that can be used in your next project.',
+      'Open Source Tailwind CSS components for your AI and GPT projects.',
   },
 }
 
