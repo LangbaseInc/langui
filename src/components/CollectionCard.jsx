@@ -30,7 +30,7 @@ export default function CollectionCard({ componentData }) {
         <div className="rounded-xl border-2 border-transparent bg-slate-800/20 transition-colors group-hover:bg-blue-600">
           <div className="flex justify-between p-4 sm:p-6">
             <div className="flex flex-col">
-              <h2 className="font-medium text-slate-200 sm:text-lg group-hover:text-white">
+              <h2 className="font-medium text-slate-200 group-hover:text-white sm:text-lg">
                 {componentData.title}
               </h2>
               <p className="font-meium mt-2 text-sm text-slate-500 group-hover:text-white/60">
@@ -40,7 +40,7 @@ export default function CollectionCard({ componentData }) {
             <span
               aria-hidden="true"
               role="img"
-              className="mx-2 text-lg text-slate-200 sm:text-2xl group-hover:text-white group-hover:animate-pulse"
+              className="mx-2 text-lg text-slate-200 group-hover:text-white sm:text-2xl "
             >
               {Icon}
             </span>

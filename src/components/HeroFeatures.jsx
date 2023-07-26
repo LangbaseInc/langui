@@ -1,22 +1,34 @@
-import Link from 'next/link';
+import Link from 'next/link'
+import HeroBadge from './HeroBadge'
 
 export default function HeroFeatures() {
   return (
     <div className="mx-auto mb-10 max-w-7xl px-6 lg:px-3 xl:px-6">
-      <div className="text-center font-medium bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-slate-200 pb-3">Embrace the AI magic of our ready-to-rock components!</div>
+      <div className="mb-3 flex items-center justify-center">
+        <HeroBadge>
+          Embrace the magic of our ready-to-rock components!
+        </HeroBadge>
+      </div>
       <h2
         id="features"
-        className="scroll-mt-40 text-center text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 sm:text-6xl"
+        className="scroll-mt-40 bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 bg-clip-text text-center text-5xl font-bold tracking-tight text-transparent sm:text-6xl"
       >
-        Ready to use <span className="underline decoration-blue-600">AI Components</span>{' '}
-        components. Accelerate your development with pre-built, easy to integrate, &
-        reusable UI components.
+        <span className="underline decoration-blue-600">Ready to use</span> AI
+        components. Accelerate your development with pre-built, easy to
+        integrate, & reusable UI components.
       </h2>
 
-      <div className="flex flex-col items-center lg:flex-row"><div className="flex justify-center items-center w-full h-full mt-8 "><Link href="/components" className="inline-flex items-center justify-center font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background h-10 w-full px-8 py-4 bg-transparent text-lg text-center text-gray-50 border border-gray-50 rounded-full md:w-auto hover:bg-gray-50 hover:text-black transition-all" data-primary="primary" data-rounded="rounded-full">Try AI Components</Link></div></div>
+      <div className="mt-8 flex h-full w-full items-center justify-center">
+        <Link
+          href="/components"
+          className="inline-flex items-center justify-center rounded-full bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-slate-50 transition-colors  hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+        >
+          Try the components
+        </Link>
+      </div>
 
-      <div className="mt-32 grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 md:max-w-none md:grid-cols-2 xl:grid-cols-3 xl:gap-16">
-        <div className="space-y-2">
+      <div className="mt-28 grid max-w-xl grid-cols-1 justify-items-center gap-x-8 gap-y-16 text-center sm:max-w-none sm:grid-cols-2 sm:text-left xl:grid-cols-3 xl:gap-16">
+        <div className="max-w-md space-y-2 ">
           <span className="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +56,7 @@ export default function HeroFeatures() {
           </p>
         </div>
 
-        <div className="space-y-2">
+        <div className="max-w-md space-y-2 ">
           <span className="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +85,7 @@ export default function HeroFeatures() {
           </p>
         </div>
 
-        <div className="space-y-2">
+        <div className="max-w-md space-y-2 ">
           <span className="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +112,7 @@ export default function HeroFeatures() {
           </p>
         </div>
 
-        <div className="space-y-2">
+        <div className="max-w-md space-y-2 ">
           <span className="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +140,7 @@ export default function HeroFeatures() {
             size.
           </p>
         </div>
-        <div className="space-y-2">
+        <div className="max-w-md space-y-2 ">
           <span className="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -156,7 +168,7 @@ export default function HeroFeatures() {
           </p>
         </div>
 
-        <div className="space-y-2">
+        <div className="max-w-md space-y-2">
           <span className="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -177,7 +189,6 @@ export default function HeroFeatures() {
           <h3 className="text-xl font-semibold capitalize text-slate-200">
             Request components
           </h3>
-
           <p className="text-slate-400">
             Request new components through GitHub. Collaborations are also
             welcome.
