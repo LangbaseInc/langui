@@ -42,7 +42,7 @@ export default function HeroComponentsPreview() {
           ✨ Upgrade to Pro
         </button>
       </div>
-      <div className="flex flex-col items-end justify-between gap-y-4 sm:gap-y-0">
+      <div className="flex flex-col items-start justify-around gap-y-4 sm:gap-y-0 lg:items-end lg:justify-between">
         <div className="flex justify-center">
           <div className="rounded-full border border-slate-300 p-1 dark:border-slate-300/20">
             <div className="flex text-xs font-semibold leading-5">
@@ -278,7 +278,8 @@ export default function HeroComponentsPreview() {
             </div>
             <p className="animate-type mt-1 truncate text-sm text-slate-500">
               I want you to act as a linux terminal. I will type commands and
-              you will reply with what the terminal should show.
+              you will reply with the result that the terminal should show as a
+              result of the command.
             </p>
           </button>
           <button

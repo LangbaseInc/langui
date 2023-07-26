@@ -34,7 +34,7 @@ export default function HeroBanner({ children, subtitle, title }) {
                   className="inline-flex items-center justify-center rounded-full bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-slate-50 transition-colors  hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
                 >
                   Browse AI components{' '}
-                  <span class="ml-1 h-fit animate-pulse rounded-md bg-white bg-opacity-25 px-2 py-1 text-[10px] leading-3">
+                  <span className="ml-1 h-fit animate-pulse rounded-md bg-white bg-opacity-25 px-2 py-1 text-[10px] leading-3">
                     55+
                   </span>
                 </Link>
