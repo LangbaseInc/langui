@@ -1,12 +1,12 @@
 import matter from 'gray-matter'
 import { join } from 'path'
 import { promises as fs } from 'fs'
-
-import Container from '@component/Container'
+import Link from 'next/link'
 import HeroPattern from '@component/HeroPattern'
 import HeroGradient from '@component/HeroGradient'
 import BrandLogo from '@component/BrandLogo'
 import CollectionGrid from '@component/CollectionGrid'
+import HeroBadge from '@/components/HeroBadge'
 
 export async function generateMetadata({ params }) {
   const { categoryData } = await getCategory(params)
@@ -87,13 +87,13 @@ export default async function Page({ params }) {
         <HeroGradient />
         <HeroPattern />
         <div className="mx-auto max-w-7xl px-6 py-24 sm:pb-32 lg:px-3 lg:py-32 xl:px-6">
-          <div className="flex-shrink-0 lg:mx-auto lg:max-w-6xl lg:pt-8 text-center">
+          <div className="flex-shrink-0 text-center lg:mx-auto lg:max-w-6xl lg:pt-8">
             <BrandLogo withText={false} size={'16'} />
 
-            <h1 className="mt-10 text-center text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 sm:text-6xl mx-auto">
+            <h1 className="mx-auto mt-10 bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 bg-clip-text text-center text-5xl font-bold tracking-tight text-transparent sm:text-6xl">
               <span className="underline decoration-blue-600">55+</span>{' '}
-              AI Components to build your AI LLM apps. LangUI is an Open Source Tailwind library with free to use
-              components tailored for your AI and GPT projects.
+              responsive and dark mode enabled components to build your AI LLM
+              apps.
             </h1>
           </div>
           <div className="mt-10 sm:mt-20">
