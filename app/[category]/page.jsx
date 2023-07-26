@@ -12,19 +12,19 @@ export async function generateMetadata({ params }) {
   const { categoryData } = await getCategory(params)
 
   return {
-    title: `Tailwind CSS ${categoryData.title} Components | GPTUI`,
+    title: `Tailwind CSS ${categoryData.title} Components | LangUI`,
     description: categoryData.description,
     openGraph: {
-      title: `Tailwind CSS ${categoryData.title} Components | GPTUI`,
+      title: `Tailwind CSS ${categoryData.title} Components | LangUI`,
       description: categoryData.description,
-      url: 'https://www.gptui.dev/',
-      siteName: 'GPTUI',
+      url: 'https://LangUI.dev/',
+      siteName: 'LangUI',
       type: 'website',
-      image: 'https://www.gptui.dev/og.jpg',
+      image: 'https://LangUI.dev/og.jpg',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `Tailwind CSS ${categoryData.title} Components | GPTUI`,
+      title: `Tailwind CSS ${categoryData.title} Components | LangUI`,
       description: categoryData.description,
     },
   }
@@ -90,7 +90,7 @@ export default async function Page({ params }) {
           <div className="flex-shrink-0 text-center lg:mx-auto lg:max-w-6xl lg:pt-8">
             <BrandLogo withText={false} size={'16'} />
 
-            <h1 className="mx-auto mt-10 bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 bg-clip-text text-center text-5xl font-bold tracking-tight text-transparent sm:text-6xl">
+            <h1 className="mt-10 bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 bg-clip-text text-center font-bold tracking-tight text-transparent text-4xl sm:text-5xl md:text-6xl max-w-6xl mx-auto">
               <span className="underline decoration-blue-600">55+</span>{' '}
               responsive and dark mode enabled components to build your AI LLM
               apps.

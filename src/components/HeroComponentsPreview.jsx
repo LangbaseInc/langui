@@ -53,11 +53,11 @@ export default function HeroComponentsPreview() {
             xmlns="http://www.w3.org/2000/svg"
             className="animate-spin inline h-4 w-4"
             viewBox="0 0 24 24"
-            stroke-width="2"
+            strokeWidth="2"
             stroke="currentColor"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M19.933 13.041a8 8 0 1 1 -9.925 -8.788c3.899 -1 7.935 1.007 9.425 4.747"></path>
@@ -75,11 +75,11 @@ export default function HeroComponentsPreview() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M10 14l11 -11"></path>
@@ -96,11 +96,11 @@ export default function HeroComponentsPreview() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M18 6l-12 12"></path>
@@ -117,11 +117,11 @@ export default function HeroComponentsPreview() {
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
             viewBox="0 0 24 24"
-            stroke-width="2"
+            strokeWidth="2"
             stroke="currentColor"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
@@ -133,11 +133,11 @@ export default function HeroComponentsPreview() {
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
             viewBox="0 0 24 24"
-            stroke-width="2"
+            strokeWidth="2"
             stroke="currentColor"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
@@ -159,11 +159,11 @@ export default function HeroComponentsPreview() {
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
                 viewBox="0 0 24 24"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M5 12l14 0"></path>
@@ -182,11 +182,11 @@ export default function HeroComponentsPreview() {
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
             viewBox="0 0 24 24"
-            stroke-width="2"
+            strokeWidth="2"
             stroke="currentColor"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
@@ -198,11 +198,11 @@ export default function HeroComponentsPreview() {
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
             viewBox="0 0 24 24"
-            stroke-width="2"
+            strokeWidth="2"
             stroke="currentColor"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
@@ -232,11 +232,11 @@ export default function HeroComponentsPreview() {
               className="h-6 w-6"
               aria-hidden="true"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M10 14l11 -11"></path>
@@ -264,11 +264,11 @@ export default function HeroComponentsPreview() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2"></path>
@@ -302,11 +302,11 @@ export default function HeroComponentsPreview() {
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
                 viewBox="0 0 24 24"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M15 7l-6.5 6.5a1.5 1.5 0 0 0 3 3l6.5 -6.5a3 3 0 0 0 -6 -6l-6.5 6.5a4.5 4.5 0 0 0 9 9l6.5 -6.5"></path>
@@ -322,11 +322,11 @@ export default function HeroComponentsPreview() {
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4"
                 viewBox="0 0 24 24"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M10 14l11 -11"></path>
@@ -353,11 +353,11 @@ export default function HeroComponentsPreview() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
@@ -369,11 +369,11 @@ export default function HeroComponentsPreview() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M7 13v-8a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v7a1 1 0 0 0 1 1h3a4 4 0 0 1 4 4v1a2 2 0 0 0 4 0v-5h3a2 2 0 0 0 2 -2l-1 -5a2 3 0 0 0 -2 -2h-7a3 3 0 0 0 -3 3"></path>
@@ -384,11 +384,11 @@ export default function HeroComponentsPreview() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M7 11v8a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1h3a4 4 0 0 0 4 -4v-1a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1 -2 2h-7a3 3 0 0 1 -3 -3"></path>

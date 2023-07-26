@@ -2,11 +2,11 @@ export const Alerts = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="h-6 w-6"
-    stroke-width="2"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4"></path>
@@ -20,11 +20,11 @@ export const Buttons = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="h-6 w-6"
-    stroke-width="2"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M10 14l11 -11"></path>
@@ -36,11 +36,11 @@ export const Cards = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="h-6 w-6"
-    stroke-width="2"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M3.604 7.197l7.138 -3.109a.96 .96 0 0 1 1.27 .527l4.924 11.902a1 1 0 0 1 -.514 1.304l-7.137 3.109a.96 .96 0 0 1 -1.271 -.527l-4.924 -11.903a1 1 0 0 1 .514 -1.304z"></path>
@@ -53,11 +53,11 @@ export const Badges = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="h-6 w-6"
-    stroke-width="2"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
@@ -67,11 +67,11 @@ export const PromptContainers = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="h-6 w-6"
-    stroke-width="2"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5"></path>
@@ -85,11 +85,11 @@ export const PromptInputs = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="h-6 w-6"
-    stroke-width="2"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M14 6l7 7l-4 4"></path>
@@ -101,12 +101,12 @@ export const PromptInputs = (
 export const PromptMessageInputs = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
-    stroke-width="2"
+    className="h-6 w-6"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M8 9h8"></path>
@@ -121,11 +121,11 @@ export const PromptMessages = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="h-6 w-6"
-    stroke-width="2"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10"></path>
@@ -136,12 +136,12 @@ export const PromptMessages = (
 export const Pricing = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
-    stroke-width="2"
+    className="h-6 w-6"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-4a3 3 0 0 1 -2.7 -2"></path>
@@ -152,12 +152,12 @@ export const Pricing = (
 export const PromptsCards = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
-    stroke-width="2"
+    className="h-6 w-6"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M8 9l3 3l-3 3"></path>
@@ -169,12 +169,12 @@ export const PromptsCards = (
 export const Toggles = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
-    stroke-width="2"
+    className="h-6 w-6"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M16 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
@@ -185,12 +185,12 @@ export const Toggles = (
 export const Sidebars = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
-    stroke-width="2"
+    className="h-6 w-6"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
@@ -201,13 +201,13 @@ export const Sidebars = (
 export const Copy = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
+    className="h-6 w-6"
     viewBox="0 0 24 24"
-    stroke-width="2"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"></path>
@@ -219,13 +219,13 @@ export const Copy = (
 export const PromptSuggestions = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
+    className="h-6 w-6"
     viewBox="0 0 24 24"
-    stroke-width="2"
+    strokeWidth="2"
     stroke="currentColor"
     fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7"></path>

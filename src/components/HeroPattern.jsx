@@ -1,7 +1,7 @@
 export default function HeroPattern() {
   return (
     <svg
-      class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+      className="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
       aria-hidden="true"
       viewBox="0 0 1422 800"
     >
@@ -14,22 +14,22 @@ export default function HeroPattern() {
           id="oooscillate-grad"
         >
           <stop
-            stop-color="hsl(230, 55%, 50%)"
-            stop-opacity="1"
+            stopColor="hsl(230, 55%, 50%)"
+            stopOpacity="1"
             offset="0%"
           ></stop>
           <stop
-            stop-color="hsl(230, 55%, 70%)"
-            stop-opacity="1"
+            stopColor="hsl(230, 55%, 70%)"
+            stopOpacity="1"
             offset="100%"
           ></stop>
         </linearGradient>
       </defs>
       <g
-        stroke-width="2"
+        strokeWidth="2"
         stroke="url(#oooscillate-grad)"
         fill="none"
-        stroke-linecap="round"
+        strokeLinecap="round"
       >
         <path
           d="M 0 572 Q 355.5 150 711 400 Q 1066.5 650 1422 572"

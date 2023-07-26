@@ -58,8 +58,6 @@ export default async function Page() {
   const componentsByCategory = await getComponents()
 
   return (
-    <>
-      <HeroBanner />
-    </>
+    <HeroBanner />
   )
 }

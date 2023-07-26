@@ -18,19 +18,19 @@ export async function generateMetadata({ params }) {
   const { collectionData } = await getCollection(params)
 
   return {
-    title: `Tailwind CSS ${collectionData.seo.title} | GPTUI`,
+    title: `Tailwind CSS ${collectionData.seo.title} | LangUI`,
     description: collectionData.seo.description,
     openGraph: {
-      title: `Tailwind CSS ${collectionData.seo.title} | GPTUI`,
+      title: `Tailwind CSS ${collectionData.seo.title} | LangUI`,
       description: collectionData.seo.description,
-      url: 'https://www.gptui.dev/',
-      siteName: 'HyperUI',
+      url: 'https://LangUI.dev/',
+      siteName: 'LangUI',
       type: 'website',
-      image: 'https://www.gptui.dev/og.jpg',
+      image: 'https://LangUI.dev/og.jpg',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `Tailwind CSS ${collectionData.seo.title} | GPTUI`,
+      title: `Tailwind CSS ${collectionData.seo.title} | LangUI`,
       description: collectionData.seo.description,
     },
   }

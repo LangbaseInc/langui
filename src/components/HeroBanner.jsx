@@ -20,7 +20,7 @@ export default function HeroBanner({ children, subtitle, title }) {
               <div className="mt-12 lg:mt-12">
                 <HeroBadge>The perfect UI for your AI</HeroBadge>
               </div>
-              <h1 className="mt-6 bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 bg-clip-text text-5xl font-bold tracking-tight text-transparent sm:text-6xl">
+              <h1 className="mt-6 bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 bg-clip-text font-bold tracking-tight text-transparent text-4xl sm:text-6xl">
                 Beautiful components for your AI projects
               </h1>
               <p className="mt-6 text-base leading-8 text-slate-300 md:text-xl md:leading-10">
@@ -34,18 +34,18 @@ export default function HeroBanner({ children, subtitle, title }) {
                   className="inline-flex items-center justify-center rounded-full bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-slate-50 transition-colors  hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
                 >
                   Browse AI components{' '}
-                  <span class="ml-1 h-fit animate-pulse rounded-md bg-white bg-opacity-25 px-2 py-1 text-[10px] leading-3">
+                  <span className="ml-1 h-fit animate-pulse rounded-md bg-white bg-opacity-25 px-2 py-1 text-[10px] leading-3">
                     55+
                   </span>
                 </Link>
 
                 <a
                   href="#features"
-                  className="group inline-flex justify-center rounded-md px-3.5 py-2.5 text-sm font-semibold text-slate-200 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+                  className="group inline-flex justify-center items-center rounded-md px-3.5 py-2.5 text-sm font-semibold text-slate-200 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
                 >
                   Learn more{' '}
                   <span
-                    className="inline-flex -translate-y-0.5 pl-2 transition-transform group-hover:translate-y-0.5 group-hover:transform"
+                    className="inline-flex items-center pl-2 transition-transform group-hover:translate-y-0.5 group-hover:transform"
                     aria-hidden="true"
                   >
                     &darr;

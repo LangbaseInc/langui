@@ -12,9 +12,11 @@
     "postbuild": "yarn css && next-sitemap --config sitemap.config.js"
   },
   "dependencies": {
+    "framer-motion": "^10.13.1",
     "next": "^13.3.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-responsive": "^9.0.2"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",

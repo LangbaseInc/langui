@@ -30,7 +30,7 @@ export default function HeaderSearch() {
 
     getSearchResults()
 
-    return () => {}
+    return () => { }
   }, [])
 
   useEffect(() => {
@@ -75,13 +75,13 @@ export default function HeaderSearch() {
         <div className="absolute bottom-0 top-6 px-2 text-slate-500">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-4 w-4"
+            className="h-4 w-4"
             viewBox="0 0 24 24"
-            stroke-width="2"
+            strokeWidth="2"
             stroke="currentColor"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>

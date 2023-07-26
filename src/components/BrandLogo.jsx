@@ -10,7 +10,7 @@ export default function BrandLogo({
       <div className={`inline-flex gap-1.5 ${fontSize} font-poppins items-end`}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class={`h-${size} w-${size} text-blue-600`}
+          className={`h-${size} w-${size} text-blue-600`}
           fill="currentColor"
           viewBox="0 0 24 24"
         >
@@ -21,7 +21,7 @@ export default function BrandLogo({
           <span className="font-regular tracking-tigh text-slate-200">
             Lang
             <span className="font-extrabold tracking-wider text-blue-600 ">
-              ui
+              UI
             </span>
           </span>
         )}

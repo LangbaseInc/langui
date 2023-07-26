@@ -3,5 +3,5 @@ module.exports = {
   exclude: ['/components/**/*.html'],
   generateIndexSitemap: false,
   generateRobotsTxt: true,
-  siteUrl: 'https://www.gptui.dev',
+  siteUrl: 'https://LangUI.dev',
 }
