@@ -3,8 +3,6 @@ import { useEffect } from 'react'
 import Prism from 'prismjs'
 require('prismjs/components/prism-jsx.min')
 
-import ButtonStyle from '@component/ButtonStyle'
-
 export default function PreviewCode({
   showPreview,
   componentCode = '',

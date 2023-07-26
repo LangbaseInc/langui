@@ -25,7 +25,6 @@ export default function ComponentPreview({
   const [previewWidth, setPreviewWidth] = useState('100%')
   const [isDarkMode, setIsDarkMode] = useState(true)
   const [isInteractive, setIsInteractive] = useState(false)
-  const [isRtl, setIsRtl] = useState(false)
   const [isJsx, setIsJsx] = useState(false)
 
   const { ref, inView } = useInView({
@@ -70,21 +69,6 @@ export default function ComponentPreview({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isDarkMode, isInteractive])
 
-  useEffect(() => {
-    if (inView) {
-      const transformedHtml = componentPreviewHtml(
-        componentCode,
-        trueComponentContainer,
-        isDarkMode,
-        isRtl
-      )
-
-      setComponentHtml(transformedHtml)
-    }
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isRtl])
-
   async function fetchHtml(useOptions = {}) {
     const { useDark, useInteractive } = useOptions
 
@@ -106,8 +90,7 @@ export default function ComponentPreview({
     const transformedHtml = componentPreviewHtml(
       textResponse,
       trueComponentContainer,
-      useDark,
-      isRtl
+      useDark
     )
     const transformedJsx = componentPreviewJsx(textResponse)
 
