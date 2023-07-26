@@ -1,25 +1,26 @@
+import Link from 'next/link';
+
 export default function HeroFeatures() {
   return (
-    <div class="mx-auto mb-10 max-w-7xl px-6 lg:px-3 xl:px-6">
+    <div className="mx-auto mb-10 max-w-7xl px-6 lg:px-3 xl:px-6">
+      <div className="text-center font-medium bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-slate-200 pb-3">Embrace the AI magic of our ready-to-rock components!</div>
       <h2
         id="features"
-        class="text-5xl font-bold tracking-tight text-slate-200 sm:text-6xl"
+        className="scroll-mt-40 text-center text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 sm:text-6xl"
       >
-        <span class="underline decoration-blue-600">Ready to use</span>{' '}
-        components
+        Ready to use <span className="underline decoration-blue-600">AI Components</span>{' '}
+        components. Accelerate your development with pre-built, easy to integrate, &
+        reusable UI components.
       </h2>
 
-      <p class="mt-6 text-base leading-8 text-slate-300 sm:text-lg">
-        Accelerate your development with pre-built, easy to integrate, and
-        reusable UI components.
-      </p>
+      <div className="flex flex-col items-center lg:flex-row"><div className="flex justify-center items-center w-full h-full mt-8 "><Link href="/components" className="inline-flex items-center justify-center font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background h-10 w-full px-8 py-4 bg-transparent text-lg text-center text-gray-50 border border-gray-50 rounded-full md:w-auto hover:bg-gray-50 hover:text-black transition-all" data-primary="primary" data-rounded="rounded-full">Try AI Components</Link></div></div>
 
-      <div class="mt-20 grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 md:max-w-none md:grid-cols-2 xl:grid-cols-3 xl:gap-16">
-        <div class="space-y-2">
-          <span class="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
+      <div className="mt-32 grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 md:max-w-none md:grid-cols-2 xl:grid-cols-3 xl:gap-16">
+        <div className="space-y-2">
+          <span className="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
+              className="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -33,21 +34,21 @@ export default function HeroFeatures() {
             </svg>
           </span>
 
-          <h3 class="text-xl font-semibold capitalize text-slate-200">
+          <h3 className="text-xl font-semibold capitalize text-slate-200">
             Copy & Paste
           </h3>
 
-          <p class="text-slate-400">
+          <p className="text-slate-400">
             Zero dependencies. No installations required. Pick your component.
             Copy&apos;n paste it into your project and see the magic.
           </p>
         </div>
 
-        <div class="space-y-2">
-          <span class="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
+        <div className="space-y-2">
+          <span className="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
+              className="h-6 w-6"
               viewBox="0 0 24 24"
               stroke-width="2"
               stroke="currentColor"
@@ -62,21 +63,21 @@ export default function HeroFeatures() {
             </svg>
           </span>
 
-          <h3 class="text-xl font-semibold capitalize text-slate-200">
+          <h3 className="text-xl font-semibold capitalize text-slate-200">
             Open Source
           </h3>
 
-          <p class="text-slate-400">
+          <p className="text-slate-400">
             The components are yours. Use, change, or monetize them. No credits
             required. Feeling generous? Support us on GitHub and Product Hunt.
           </p>
         </div>
 
-        <div class="space-y-2">
-          <span class="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
+        <div className="space-y-2">
+          <span className="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
+              className="h-6 w-6"
               viewBox="0 0 24 24"
               stroke-width="2"
               stroke="currentColor"
@@ -89,21 +90,21 @@ export default function HeroFeatures() {
             </svg>
           </span>
 
-          <h3 class="text-xl font-semibold capitalize text-slate-200">
+          <h3 className="text-xl font-semibold capitalize text-slate-200">
             Dark mode
           </h3>
 
-          <p class="text-slate-400">
+          <p className="text-slate-400">
             All components support light and dark modes. Carefully designed to
             look the best across both modes.
           </p>
         </div>
 
-        <div class="space-y-2">
-          <span class="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
+        <div className="space-y-2">
+          <span className="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
+              className="h-6 w-6"
               viewBox="0 0 24 24"
               stroke-width="2"
               stroke="currentColor"
@@ -118,20 +119,20 @@ export default function HeroFeatures() {
             </svg>
           </span>
 
-          <h3 class="text-xl font-semibold capitalize text-slate-200">
+          <h3 className="text-xl font-semibold capitalize text-slate-200">
             Fully responsive
           </h3>
 
-          <p class="text-slate-400">
+          <p className="text-slate-400">
             Components are responsively designed to look great on any screen
             size.
           </p>
         </div>
-        <div class="space-y-2">
-          <span class="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
+        <div className="space-y-2">
+          <span className="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
+              className="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -145,21 +146,21 @@ export default function HeroFeatures() {
             </svg>
           </span>
 
-          <h3 class="text-xl font-semibold capitalize text-slate-200">
+          <h3 className="text-xl font-semibold capitalize text-slate-200">
             Easy to customize
           </h3>
 
-          <p class="text-slate-400">
+          <p className="text-slate-400">
             Every component in this library is designed with two colors: slate
             and blue, allowing effortless customization.
           </p>
         </div>
 
-        <div class="space-y-2">
-          <span class="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
+        <div className="space-y-2">
+          <span className="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
+              className="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -173,11 +174,11 @@ export default function HeroFeatures() {
             </svg>
           </span>
 
-          <h3 class="text-xl font-semibold capitalize text-slate-200">
+          <h3 className="text-xl font-semibold capitalize text-slate-200">
             Request components
           </h3>
 
-          <p class="text-slate-400">
+          <p className="text-slate-400">
             Request new components through GitHub. Collaborations are also
             welcome.
           </p>

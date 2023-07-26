@@ -4,12 +4,13 @@ import HeroGradient from './HeroGradient'
 import BrandLogo from './BrandLogo'
 import HeroComponentsPreview from './HeroComponentsPreview'
 import HeroFeatures from './HeroFeatures'
+import Link from 'next/link';
 
 export default function HeroBanner({ children, subtitle, title }) {
   return (
     <section className="bg-slate-900">
       <Container classNames="py-8 lg:py-12">
-        <div className="relative isolate overflow-hidden">
+        <div className="relative isolate overflow-hidden lg:mb-40">
           <HeroPattern />
           <HeroGradient />
           <div className="mx-auto max-w-7xl px-6 py-24 sm:pb-32 lg:flex lg:px-3 lg:py-32 xl:px-6">
@@ -20,25 +21,25 @@ export default function HeroBanner({ children, subtitle, title }) {
                   The perfect UI for your AI
                 </span>
               </div>
-              <h1 className="mt-10 text-5xl font-bold tracking-tight text-slate-200 sm:text-6xl">
-                Beautiful components for your GPT projects
+              <h1 className="mt-6 text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 sm:text-6xl">
+                Beautiful components for your AI projects
               </h1>
-              <p className="mt-6 text-base leading-8 text-slate-300 sm:text-lg">
+              <p className="mt-6 text-base leading-snug bg-clip-text text-transparent bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 sm:text-3xl">
                 LangUI is an Open Source Tailwind library with free to use
                 components tailored for your AI and GPT projects. Focus on
                 building the next best project and let it handle the UI.
               </p>
               <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row sm:items-center">
-                <a
+                <Link
                   href="/components"
-                  className="inline-flex justify-center rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-slate-50 transition-colors  hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+                  className="inline-flex justify-center items-center rounded-full bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-slate-50 transition-colors  hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
                 >
-                  Browse components
-                </a>
+                  Browse AI components <span class="ml-1 animate-pulse bg-white bg-opacity-25 text-[10px] leading-3 px-2 py-1 h-fit rounded-md">55+</span>
+                </Link>
 
                 <a
                   href="#features"
-                  className="group inline-flex justify-center rounded-md border border-slate-200/10 px-3.5 py-2.5 text-sm font-semibold text-slate-200 transition-colors hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+                  className="group inline-flex justify-center rounded-md px-3.5 py-2.5 text-sm font-semibold text-slate-200 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
                 >
                   Learn more{' '}
                   <span
