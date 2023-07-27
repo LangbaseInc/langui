@@ -8,26 +8,26 @@ export default function Footer() {
       <Container classNames="py-8 px-4 max-w-screen-xl lg:py-12">
         <div className="flex flex-col items-center justify-between gap-y-4 md:flex-row">
           <BrandLogo fontSize="text-lg" />
-          <ul class="text-center">
-            <li class="relative inline-block pr-8 before:absolute before:right-3 before:top-1/2 before:-translate-y-1/2 before:text-slate-300 before:content-['/'] last:pr-0 last-of-type:before:hidden dark:before:text-slate-600">
+          <ul className="text-center">
+            <li className="relative inline-block pr-8 before:absolute before:right-3 before:top-1/2 before:-translate-y-1/2 before:text-slate-300 before:content-['/'] last:pr-0 last-of-type:before:hidden dark:before:text-slate-600">
               <Link
-                class="inline-flex gap-x-2 text-sm text-slate-400 hover:text-slate-200"
+                className="inline-flex gap-x-2 text-sm text-slate-400 hover:text-slate-200"
                 href="/components"
               >
                 Components
               </Link>
             </li>
-            <li class="relative inline-block pr-8 before:absolute before:right-3 before:top-1/2 before:-translate-y-1/2 before:text-slate-300 before:content-['/'] last:pr-0 last-of-type:before:hidden dark:before:text-slate-600">
+            <li className="relative inline-block pr-8 before:absolute before:right-3 before:top-1/2 before:-translate-y-1/2 before:text-slate-300 before:content-['/'] last:pr-0 last-of-type:before:hidden dark:before:text-slate-600">
               <Link
-                class="inline-flex gap-x-2 text-sm text-slate-400 hover:text-slate-200"
+                className="inline-flex gap-x-2 text-sm text-slate-400 hover:text-slate-200"
                 href="#"
               >
                 GitHub
               </Link>
             </li>
-            <li class="relative inline-block pr-8 before:absolute before:right-3 before:top-1/2 before:-translate-y-1/2 before:text-slate-300 before:content-['/'] last:pr-0 last-of-type:before:hidden dark:before:text-slate-600">
+            <li className="relative inline-block pr-8 before:absolute before:right-3 before:top-1/2 before:-translate-y-1/2 before:text-slate-300 before:content-['/'] last:pr-0 last-of-type:before:hidden dark:before:text-slate-600">
               <Link
-                class="inline-flex gap-x-2 text-sm text-slate-400 hover:text-slate-200"
+                className="inline-flex gap-x-2 text-sm text-slate-400 hover:text-slate-200"
                 href="https://twitter.com/ahmadbilaldev"
               >
                 Twitter

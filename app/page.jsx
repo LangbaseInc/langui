@@ -55,11 +55,8 @@ async function getComponents() {
 }
 
 export default async function Page() {
-  const componentsByCategory = await getComponents()
+  // TODO: If we have more than one categories in the future
+  // const componentsByCategory = await getComponents()
 
-  return (
-    <>
-      <HeroBanner />
-    </>
-  )
+  return <HeroBanner />
 }

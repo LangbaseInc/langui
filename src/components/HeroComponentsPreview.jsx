@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import HeroGradient from './HeroGradient'
 
 export default function HeroComponentsPreview() {
   const [isMonthly, setIsMonthly] = useState(true)
@@ -42,7 +43,7 @@ export default function HeroComponentsPreview() {
           ✨ Upgrade to Pro
         </button>
       </div>
-      <div className="flex flex-col items-start justify-around gap-y-4 sm:gap-y-0 lg:items-end lg:justify-between">
+      <div className="flex flex-col items-start justify-around gap-y-4 sm:items-end sm:gap-y-0 lg:justify-between">
         <div className="flex justify-center">
           <div className="rounded-full border border-slate-300 p-1 dark:border-slate-300/20">
             <div className="flex text-xs font-semibold leading-5">
@@ -76,11 +77,11 @@ export default function HeroComponentsPreview() {
             xmlns="http://www.w3.org/2000/svg"
             className="inline h-4 w-4 animate-spin"
             viewBox="0 0 24 24"
-            stroke-width="2"
+            strokeWidth="2"
             stroke="currentColor"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M19.933 13.041a8 8 0 1 1 -9.925 -8.788c3.899 -1 7.935 1.007 9.425 4.747"></path>
@@ -97,11 +98,11 @@ export default function HeroComponentsPreview() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M10 14l11 -11"></path>
@@ -118,11 +119,11 @@ export default function HeroComponentsPreview() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M18 6l-12 12"></path>
@@ -132,54 +133,38 @@ export default function HeroComponentsPreview() {
         </div>
       </div>
       {/* Mobile Only */}
-      <div className="flex flex-col items-start justify-start gap-4 sm:hidden">
-        <span className="inline-flex h-max items-center gap-x-1 rounded-full bg-yellow-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-yellow-600">
-          Summarize
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-            <path d="M10 10l4 4m0 -4l-4 4"></path>
-          </svg>
-        </span>
-        <span className="inline-flex h-max items-center gap-x-1 rounded-full bg-green-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-green-600">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-            <path d="M9 12l2 2l4 -4"></path>
-          </svg>
-          Done
-        </span>
+      <div className="flex flex-col items-end justify-center gap-4 sm:hidden">
+        <div>
+          <span class="inline-flex items-center gap-x-2 rounded-full bg-green-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-green-600">
+            <span class="inline-block h-1.5 w-1.5 rounded-full bg-green-600"></span>
+            Approved
+          </span>
+        </div>
+        <div>
+          <span class="inline-flex items-center gap-x-2 rounded-full bg-amber-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-amber-600">
+            <span class="inline-block h-1.5 w-1.5 rounded-full bg-amber-600"></span>
+            Pending
+          </span>
+        </div>
+        <div>
+          <span class="inline-flex items-center gap-x-2 rounded-full bg-blue-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-blue-600">
+            <span class="inline-block h-1.5 w-1.5 rounded-full bg-blue-600"></span>
+            In Progress
+          </span>
+        </div>
       </div>
 
-      <div class="group col-span-2 flex rounded-lg bg-slate-900 text-slate-200 transition-colors duration-300 hover:bg-blue-600 sm:col-span-1">
-        <div class="flex cursor-pointer items-center justify-between space-x-6 truncate p-6">
-          <div class="flex flex-col items-center gap-y-1 rounded-lg text-xs">
+      <div className="group col-span-2 flex rounded-lg bg-slate-900 text-slate-200 transition-colors duration-300 hover:bg-blue-600 sm:col-span-1">
+        <div className="flex cursor-pointer items-center justify-between space-x-6 truncate p-6">
+          <div className="flex flex-col items-center gap-y-1 rounded-lg text-xs">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              stroke-width="2"
+              className="h-6 w-6"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M14 6l7 7l-4 4"></path>
@@ -187,13 +172,13 @@ export default function HeroComponentsPreview() {
               <path d="M4 20l1.768 -1.768"></path>
             </svg>
           </div>
-          <div class="flex-1 truncate">
-            <div class="flex items-center space-x-3">
-              <h3 class=" text-sm font-medium text-slate-200 group-hover:text-slate-50">
+          <div className="flex-1 truncate">
+            <div className="flex items-center space-x-3">
+              <h3 className=" text-sm font-medium text-slate-200 group-hover:text-slate-50">
                 Screenwriter
               </h3>
             </div>
-            <p class="mt-1 truncate text-sm text-slate-500 transition-colors duration-300 group-hover:text-slate-300">
+            <p className="mt-1 truncate text-sm text-slate-500 transition-colors duration-300 group-hover:text-slate-300">
               I want you to act as a screenwriter. You will develop an engaging
               and creative script for either a feature length film or a Web
               Series that can captivate its viewers.
@@ -202,43 +187,21 @@ export default function HeroComponentsPreview() {
         </div>
       </div>
 
-      <div className="hidden items-center gap-2 sm:flex">
-        <span className="inline-flex h-max items-center gap-x-1 rounded-full bg-yellow-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-yellow-600">
-          Summarize
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-            <path d="M10 10l4 4m0 -4l-4 4"></path>
-          </svg>
-        </span>
-        <span className="inline-flex h-max items-center gap-x-1 rounded-full bg-green-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-green-600">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-            <path d="M9 12l2 2l4 -4"></path>
-          </svg>
-          Done
-        </span>
+      <div className="hidden items-center justify-end gap-2 sm:flex">
+        <div>
+          <span class="inline-flex items-center gap-x-2 rounded-full bg-green-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-green-600">
+            <span class="inline-block h-1.5 w-1.5 rounded-full bg-green-600"></span>
+            Approved
+          </span>
+        </div>
+        <div>
+          <span class="inline-flex items-center gap-x-2 rounded-full bg-amber-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-amber-600">
+            <span class="inline-block h-1.5 w-1.5 rounded-full bg-amber-600"></span>
+            Pending
+          </span>
+        </div>
       </div>
-      <form className="col-span-2 ">
+      <form className="col-span-2">
         <label for="chat-input" className="sr-only">
           Enter prompt here …
         </label>
@@ -259,11 +222,11 @@ export default function HeroComponentsPreview() {
               className="h-6 w-6"
               aria-hidden="true"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M10 14l11 -11"></path>
@@ -273,7 +236,7 @@ export default function HeroComponentsPreview() {
           </button>
         </div>
       </form>
-      <div className="col-span-2 rounded-xl border border-slate-200/20 bg-slate-50 dark:bg-slate-900 md:border-none">
+      <div className="col-span-2 rounded-xl bg-slate-50 dark:bg-slate-900">
         <div className="flex w-full items-center justify-between space-x-6 p-6">
           <button className="group flex-1 truncate">
             <div className="flex items-center space-x-3">
@@ -281,7 +244,7 @@ export default function HeroComponentsPreview() {
                 Linux Terminal
               </h3>
             </div>
-            <p className="animate-type mt-1 truncate text-sm text-slate-500">
+            <p className="mt-1 truncate text-sm text-slate-500">
               I want you to act as a linux terminal. I will type commands and
               you will reply with the result that the terminal should show as a
               result of the command.
@@ -299,11 +262,11 @@ export default function HeroComponentsPreview() {
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill={bookmark ? 'currentColor' : 'none'}
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2"></path>
@@ -315,58 +278,58 @@ export default function HeroComponentsPreview() {
         </div>
       </div>
 
-      <div class="col-span-2 flex-1 overflow-y-auto rounded-xl bg-slate-200 p-4 text-sm leading-6 text-slate-900 dark:bg-slate-800 dark:text-slate-300 sm:text-base sm:leading-7">
-        <div class="flex flex-row px-2 py-4 sm:px-4">
+      <div className="col-span-2 flex-1 overflow-y-auto rounded-xl bg-slate-200 p-4 text-sm leading-6 text-slate-900 dark:bg-slate-800 dark:text-slate-300 sm:text-base sm:leading-7">
+        <div className="flex flex-row px-2 py-4 sm:px-4">
           <img
-            class="mr-2 flex h-8 w-8 rounded-full sm:mr-4"
+            className="mr-2 flex h-8 w-8 rounded-full sm:mr-4"
             src="https://dummyimage.com/256x256/363536/ffffff&text=U"
           />
 
-          <div class="flex max-w-3xl items-center">
+          <div className="flex max-w-3xl items-center">
             <p>Explain quantum computing in simple terms</p>
           </div>
         </div>
-        <div class="mb-2 flex w-full flex-row justify-end gap-x-2 text-slate-500">
-          <button class="hover:text-blue-600">
+        <div className="mb-2 flex w-full flex-row justify-end gap-x-2 text-slate-500">
+          <button className="hover:text-blue-600">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              className="h-5 w-5"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M7 11v8a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1h3a4 4 0 0 0 4 -4v-1a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1 -2 2h-7a3 3 0 0 1 -3 -3"></path>
             </svg>
           </button>
-          <button class="hover:text-blue-600" type="button">
+          <button className="hover:text-blue-600" type="button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              className="h-5 w-5"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M7 13v-8a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v7a1 1 0 0 0 1 1h3a4 4 0 0 1 4 4v1a2 2 0 0 0 4 0v-5h3a2 2 0 0 0 2 -2l-1 -5a2 3 0 0 0 -2 -2h-7a3 3 0 0 0 -3 3"></path>
             </svg>
           </button>
-          <button class="hover:text-blue-600" type="button">
+          <button className="hover:text-blue-600" type="button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              className="h-5 w-5"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
@@ -374,13 +337,13 @@ export default function HeroComponentsPreview() {
             </svg>
           </button>
         </div>
-        <div class="mb-4 flex rounded-xl bg-slate-50 px-2 py-6 dark:bg-slate-900 sm:px-4">
+        <div className="mb-4 flex rounded-xl bg-slate-50 px-2 py-6 dark:bg-slate-900 sm:px-4">
           <img
-            class="mr-2 flex h-8 w-8 rounded-full sm:mr-4"
+            className="mr-2 flex h-8 w-8 rounded-full sm:mr-4"
             src="https://dummyimage.com/256x256/354ea1/ffffff&text=G"
           />
 
-          <div class="flex max-w-3xl items-center rounded-xl">
+          <div className="flex max-w-3xl items-center rounded-xl">
             <p>
               Certainly! Quantum computing is a new type of computing that
               relies on the principles of quantum physics. Traditional
@@ -391,6 +354,9 @@ export default function HeroComponentsPreview() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="lg:hidden">
+        <HeroGradient position="top-[50rem] " />
       </div>
     </>
   )

@@ -22,7 +22,7 @@ export const metadata = {
     url: 'https://www.LangUI.dev/',
     siteName: 'LangUI',
     type: 'website',
-    image: 'https://www.LangUI.dev/og.jpg',
+    image: 'https://www.LangUI.dev/og.jpeg',
   },
   twitter: {
     card: 'summary_large_image',
@@ -46,7 +46,6 @@ export default function RootLayout({ children }) {
 
       <body className="bg-slate-900 antialiased">
         <Header />
-        {/* <HeaderBanner /> */}
         <main>{children}</main>
         <Footer />
       </body>

@@ -34,14 +34,14 @@ export default function Header() {
     },
     {
       title: 'GitHub',
-      href: 'https://github.com/ahmadbilaldev/gpt-interface',
+      href: 'https://github.com/ahmadbilaldev/langui',
       external: true,
     },
   ]
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-slate-200/10 backdrop-blur ">
-      <Container classNames="relative max-w-screen-xl px-4 flex h-16 items-center justify-between gap-4 sm:gap-8 mx-auto max-w-7xl px-6">
+      <Container classNames="relative max-w-screen-xl px-4 flex h-16 items-center justify-between gap-4 sm:gap-8 max-w-7xl xl:px-6">
         <div className="flex items-center gap-2 sm:gap-6">
           <BrandLogo fontSize="text-xl" />
 

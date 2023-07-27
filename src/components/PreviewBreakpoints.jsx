@@ -7,13 +7,13 @@ export default function PreviewBreakpoint({
   const iconMobile = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      class="h-4 w-4"
+      className="h-4 w-4"
       viewBox="0 0 24 24"
-      stroke-width="2"
+      strokeWidth="2"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
       <path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14z"></path>
@@ -25,13 +25,13 @@ export default function PreviewBreakpoint({
   const iconTablet = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      class="h-4 w-4"
+      className="h-4 w-4"
       viewBox="0 0 24 24"
-      stroke-width="2"
+      strokeWidth="2"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
       <path d="M18 2a3 3 0 0 1 2.995 2.824l.005 .176v14a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm-3 15h-6l-.117 .007a1 1 0 0 0 0 1.986l.117 .007h6l.117 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z"></path>
@@ -41,13 +41,13 @@ export default function PreviewBreakpoint({
   const iconLaptop = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      class="h-4 w-4"
+      className="h-4 w-4"
       viewBox="0 0 24 24"
-      stroke-width="2"
+      strokeWidth="2"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
       <path d="M3 19l18 0"></path>
@@ -58,13 +58,13 @@ export default function PreviewBreakpoint({
   const iconDesktop = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      class="h-4 w-4"
+      className="h-4 w-4"
       viewBox="0 0 24 24"
-      stroke-width="2"
+      strokeWidth="2"
       stroke="currentColor"
       fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
       <path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10z"></path>

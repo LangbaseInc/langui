@@ -1,30 +1,28 @@
 import matter from 'gray-matter'
 import { join } from 'path'
 import { promises as fs } from 'fs'
-import Link from 'next/link'
 import HeroPattern from '@component/HeroPattern'
 import HeroGradient from '@component/HeroGradient'
 import BrandLogo from '@component/BrandLogo'
 import CollectionGrid from '@component/CollectionGrid'
-import HeroBadge from '@/components/HeroBadge'
 
 export async function generateMetadata({ params }) {
   const { categoryData } = await getCategory(params)
 
   return {
-    title: `Tailwind CSS ${categoryData.title} Components | GPTUI`,
+    title: `AI Tailwind ${categoryData.title} | LangUI`,
     description: categoryData.description,
     openGraph: {
-      title: `Tailwind CSS ${categoryData.title} Components | GPTUI`,
+      title: `AI Tailwind ${categoryData.title} | LangUI`,
       description: categoryData.description,
-      url: 'https://www.gptui.dev/',
-      siteName: 'GPTUI',
+      url: 'https://www.LangUI.dev/',
+      siteName: 'LangUI',
       type: 'website',
-      image: 'https://www.gptui.dev/og.jpg',
+      image: 'https://www.LangUI.dev/og.jpg',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `Tailwind CSS ${categoryData.title} Components | GPTUI`,
+      title: `AI Tailwind ${categoryData.title} | LangUI`,
       description: categoryData.description,
     },
   }
@@ -90,7 +88,7 @@ export default async function Page({ params }) {
           <div className="flex-shrink-0 text-center lg:mx-auto lg:max-w-6xl lg:pt-8">
             <BrandLogo withText={false} size={'16'} />
 
-            <h1 className="mx-auto mt-10 bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 bg-clip-text text-center text-5xl font-bold tracking-tight text-transparent sm:text-6xl">
+            <h1 className="mx-auto mt-10 max-w-6xl bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 bg-clip-text text-center text-4xl font-bold tracking-tight text-transparent sm:text-5xl md:text-6xl">
               <span className="underline decoration-blue-600">55+</span>{' '}
               responsive and dark mode enabled components to build your AI LLM
               apps.
