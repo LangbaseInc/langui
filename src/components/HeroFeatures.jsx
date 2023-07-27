@@ -5,17 +5,18 @@ export default function HeroFeatures() {
   return (
     <div className="mx-auto mb-10 max-w-7xl px-6 lg:px-3 xl:px-6">
       <div className="mb-3 flex items-center justify-center">
-        <HeroBadge>
-          Embrace the magic of our ready-to-rock components!
-        </HeroBadge>
+        <HeroBadge>Embrace the magic of our ready-to-rock components</HeroBadge>
       </div>
       <h2
         id="features"
-        className="scroll-mt-40 bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 bg-clip-text text-center text-5xl font-bold tracking-tight text-transparent sm:text-6xl"
+        className="mx-auto max-w-6xl scroll-mt-40 bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60  bg-clip-text text-center text-2xl font-bold tracking-tight text-transparent sm:text-4xl md:text-5xl lg:text-6xl"
       >
-        <span className="underline decoration-blue-600">Ready to use</span> AI
-        components. Accelerate your development with pre-built, easy to
-        integrate, & reusable UI components.
+        <span className="underline decoration-blue-600">
+          Ready to use AI components
+        </span>
+        {'. '}
+        Accelerate your development with pre-built, easy to integrate, &
+        reusable UI components.
       </h2>
 
       <div className="mt-8 flex h-full w-full items-center justify-center">
@@ -28,7 +29,7 @@ export default function HeroFeatures() {
       </div>
 
       <div className="mt-28 grid max-w-xl grid-cols-1 justify-items-center gap-x-8 gap-y-16 text-center sm:max-w-none sm:grid-cols-2 sm:text-left xl:grid-cols-3 xl:gap-16">
-        <div className="max-w-md space-y-2 ">
+        <div className="max-w-md space-y-2">
           <span className="mb-4 inline-block rounded-full bg-blue-600 p-3 text-slate-50">
             <svg
               xmlns="http://www.w3.org/2000/svg"

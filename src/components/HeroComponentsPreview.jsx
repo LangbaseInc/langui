@@ -169,32 +169,37 @@ export default function HeroComponentsPreview() {
         </span>
       </div>
 
-      <div className="col-span-2 flex flex-col sm:col-span-1 sm:max-w-xs">
-        <a className="cursor-pointer rounded-lg border-2 border-slate-300 bg-slate-50 transition-colors hover:border-blue-600 dark:border-slate-300/20 dark:bg-slate-800 dark:hover:border-blue-600">
-          <div className="flex w-full items-center justify-between p-6">
-            <h2 className="text-base font-medium text-slate-900 transition-colors dark:text-slate-200">
-              Code generation
-            </h2>
-
-            <div className="text-slate-900 dark:text-slate-200">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M5 12l14 0"></path>
-                <path d="M15 16l4 -4"></path>
-                <path d="M15 8l4 4"></path>
-              </svg>
-            </div>
+      <div class="group col-span-2 flex rounded-lg bg-slate-900 text-slate-200 transition-colors duration-300 hover:bg-blue-600 sm:col-span-1">
+        <div class="flex cursor-pointer items-center justify-between space-x-6 truncate p-6">
+          <div class="flex flex-col items-center gap-y-1 rounded-lg text-xs">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M14 6l7 7l-4 4"></path>
+              <path d="M5.828 18.172a2.828 2.828 0 0 0 4 0l10.586 -10.586a2 2 0 0 0 0 -2.829l-1.171 -1.171a2 2 0 0 0 -2.829 0l-10.586 10.586a2.828 2.828 0 0 0 0 4z"></path>
+              <path d="M4 20l1.768 -1.768"></path>
+            </svg>
           </div>
-        </a>
+          <div class="flex-1 truncate">
+            <div class="flex items-center space-x-3">
+              <h3 class=" text-sm font-medium text-slate-200 group-hover:text-slate-50">
+                Screenwriter
+              </h3>
+            </div>
+            <p class="mt-1 truncate text-sm text-slate-500 transition-colors duration-300 group-hover:text-slate-300">
+              I want you to act as a screenwriter. You will develop an engaging
+              and creative script for either a feature length film or a Web
+              Series that can captivate its viewers.
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="hidden items-center gap-2 sm:flex">

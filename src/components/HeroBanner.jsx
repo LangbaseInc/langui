@@ -45,7 +45,7 @@ export default function HeroBanner({ children, subtitle, title }) {
                 >
                   Learn more{' '}
                   <span
-                    className="inline-flex -translate-y-0.5 pl-2 transition-transform group-hover:translate-y-0.5 group-hover:transform"
+                    className="inline-flex pl-2 transition-transform group-hover:translate-y-1 group-hover:transform"
                     aria-hidden="true"
                   >
                     &darr;
