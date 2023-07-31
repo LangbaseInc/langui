@@ -8,6 +8,9 @@
   <a href="https://github.com/ahmadbilaldev/LangUI/stargazers">
     <img src="https://img.shields.io/github/stars/ahmadbilaldev/LangUI.svg" alt="GitHub Stars">
   </a>
+  <a href="https://www.LangUI.dev">
+  <img src="https://vercelbadge.vercel.app/api/ahmadbilaldev/langui" alt="Vercel Deployment">
+  </a>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
   </a>
