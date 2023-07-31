@@ -19,7 +19,9 @@
 </p>
 <hr/>
 
-LangUI is an Open Source Tailwind library with free components tailored for your AI and GPT projects. It offers a collection of beautiful, ready-to-use components to enhance the user interface of your AI applications, allowing you to focus on building the next best project while leaving the UI to LangUI.
+[LangUI](https://www.LangUI.dev) is an Open Source Tailwind library with free components tailored for your AI and GPT projects. It offers a collection of beautiful, ready-to-use components to enhance the user interface of your AI applications, allowing you to focus on building the next best project while leaving the UI to LangUI.
+
+⭐️ LangUI is Open Source and its components are completely free. Please star it to show your support!
 
 ## Documentation
 
@@ -69,6 +71,10 @@ LangUI is licensed under the [MIT License](LICENSE).
 
 ---
 
-Enjoy using LangUI to build stunning UIs for your AI and GPT projects. If you find it helpful, don't forget to give it a star on GitHub! For any queries or issues, feel free to open an [issue](https://github.com/ahmadbilaldev/LangUI/issues) on the repository.
+Enjoy using LangUI to build stunning UIs for your AI and GPT projects.
+
+🌟 If you find it helpful, don't forget to give it a star on GitHub! Stars are like little virtual hugs that keep us going! We appreciate every single one we receive.
+
+For any queries or issues, feel free to open an [issue](https://github.com/ahmadbilaldev/LangUI/issues) on the repository.
 
 Happy coding! 😊
