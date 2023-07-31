@@ -45,6 +45,14 @@ For documentation and components, visit [LangUI.dev](https://www.langui.dev/).
 
 - **Easy Customization**: LangUI uses a two-color-only pallete. The two color pallete - slate and blue - allows for effortless customization into your brand's colors.
 
+## Screenshots
+
+![LangUI](./screenshots/1.png)
+
+![Components](./screenshots/2.png)
+
+![Preview Component](./screenshots/3.png)
+
 ## Request a Component
 
 Have an idea for a new component? We'd love to hear from you! Simply head over to our [GitHub repository](https://github.com/ahmadbilaldev/LangUI) and submit your component request. Let's collaborate and cook up something spicy together!
