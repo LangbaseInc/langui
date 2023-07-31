@@ -3,6 +3,8 @@ import '@style/site.css'
 import { Poppins } from 'next/font/google'
 import Footer from '@component/Footer'
 import Header from '@component/Header'
+import Analytics from '@/components/Analytics'
+import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
 
 const poppins = Poppins({
   variable: '--font-poppins',
@@ -43,7 +45,8 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
-
+      <Analytics GA_MEASUREMENT_ID={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
+      <VercelAnalytics />
       <body className="bg-slate-900 antialiased">
         <Header />
         <main>{children}</main>

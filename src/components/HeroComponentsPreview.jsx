@@ -135,20 +135,20 @@ export default function HeroComponentsPreview() {
       {/* Mobile Only */}
       <div className="flex flex-col items-end justify-center gap-4 sm:hidden">
         <div>
-          <span class="inline-flex items-center gap-x-2 rounded-full bg-green-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-green-600">
-            <span class="inline-block h-1.5 w-1.5 rounded-full bg-green-600"></span>
+          <span className="inline-flex items-center gap-x-2 rounded-full bg-green-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-green-600">
+            <span className="inline-block h-1.5 w-1.5 rounded-full bg-green-600"></span>
             Approved
           </span>
         </div>
         <div>
-          <span class="inline-flex items-center gap-x-2 rounded-full bg-amber-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-amber-600">
-            <span class="inline-block h-1.5 w-1.5 rounded-full bg-amber-600"></span>
+          <span className="inline-flex items-center gap-x-2 rounded-full bg-amber-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-amber-600">
+            <span className="inline-block h-1.5 w-1.5 rounded-full bg-amber-600"></span>
             Pending
           </span>
         </div>
         <div>
-          <span class="inline-flex items-center gap-x-2 rounded-full bg-blue-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-blue-600">
-            <span class="inline-block h-1.5 w-1.5 rounded-full bg-blue-600"></span>
+          <span className="inline-flex items-center gap-x-2 rounded-full bg-blue-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-blue-600">
+            <span className="inline-block h-1.5 w-1.5 rounded-full bg-blue-600"></span>
             In Progress
           </span>
         </div>
@@ -189,14 +189,14 @@ export default function HeroComponentsPreview() {
 
       <div className="hidden items-center justify-end gap-2 sm:flex">
         <div>
-          <span class="inline-flex items-center gap-x-2 rounded-full bg-green-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-green-600">
-            <span class="inline-block h-1.5 w-1.5 rounded-full bg-green-600"></span>
+          <span className="inline-flex items-center gap-x-2 rounded-full bg-green-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-green-600">
+            <span className="inline-block h-1.5 w-1.5 rounded-full bg-green-600"></span>
             Approved
           </span>
         </div>
         <div>
-          <span class="inline-flex items-center gap-x-2 rounded-full bg-amber-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-amber-600">
-            <span class="inline-block h-1.5 w-1.5 rounded-full bg-amber-600"></span>
+          <span className="inline-flex items-center gap-x-2 rounded-full bg-amber-600/10 px-2.5 py-1 text-sm font-semibold leading-5 text-amber-600">
+            <span className="inline-block h-1.5 w-1.5 rounded-full bg-amber-600"></span>
             Pending
           </span>
         </div>
