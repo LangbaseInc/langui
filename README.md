@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="./public/logo.png" alt="LangUI Logo">
+  <a href="https://www.LangUI.dev">
+    <img src="./public/logo.png" alt="LangUI Logo">
+  </a>
 </div>
 
 <h3 align="center">The perfect UI for your AI</h3>
