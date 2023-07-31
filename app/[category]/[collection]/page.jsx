@@ -25,7 +25,7 @@ export async function generateMetadata({ params }) {
       url: 'https://www.LangUI.dev/',
       siteName: 'LangUI',
       type: 'website',
-      image: 'https://www.LangUI.dev/og.jpeg',
+      image: 'https://www.LangUI.dev/og.png',
     },
     twitter: {
       card: 'summary_large_image',

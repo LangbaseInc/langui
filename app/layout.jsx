@@ -22,7 +22,7 @@ export const metadata = {
     url: 'https://www.LangUI.dev/',
     siteName: 'LangUI',
     type: 'website',
-    image: 'https://www.LangUI.dev/og.png',
+    images: ['https://www.LangUI.dev/og.png'],
   },
   twitter: {
     card: 'summary_large_image',
