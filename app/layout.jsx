@@ -3,6 +3,7 @@ import '@style/site.css'
 import { Poppins } from 'next/font/google'
 import Footer from '@component/Footer'
 import Header from '@component/Header'
+import Banner from '@component/Banner'
 import Analytics from '@/components/Analytics'
 import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
 
@@ -49,6 +50,7 @@ export default function RootLayout({ children }) {
       <VercelAnalytics />
       <body className="bg-slate-900 antialiased">
         <Header />
+        <Banner />
         <main>{children}</main>
         <Footer />
       </body>
