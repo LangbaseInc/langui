@@ -1,35 +1,94 @@
 <div
-  class="max-w-sm rounded-lg border border-slate-200 bg-white px-3 py-6 shadow dark:border-slate-700 dark:bg-slate-800"
+  class="flex w-full max-w-md flex-col justify-between rounded-3xl bg-slate-50 p-8 text-slate-900 ring-1 ring-slate-300 dark:bg-slate-900 dark:text-slate-200 dark:ring-slate-300/20 xl:p-10"
 >
-  <div class="flex items-center justify-between">
-    <div class="flex">
-      <div class="relative inline-flex">
-        <span
-          class="absolute bottom-0 right-0 h-3 w-3 rounded-full border bg-green-600 dark:border-slate-900 dark:bg-green-600 dark:text-slate-100"
-        ></span>
-        <img
-          src="https://source.unsplash.com/40x40/?portrait"
-          alt="user"
-          class="h-10 w-10 rounded-full bg-slate-400 dark:border-slate-700"
-        />
-      </div>
-      <div class="ml-4 flex flex-col gap-y-2">
-        <h3 class="text-sm font-bold text-slate-900 dark:text-slate-200">
-          John Doe
-        </h3>
-        <span class="text-xs text-slate-400">johndoe@gmail.com</span>
-      </div>
+  <div>
+    <div class="flex items-center justify-between gap-x-4">
+      <h3 id="tier-starter" class="text-lg font-semibold leading-8">Starter</h3>
+      <p
+        class="rounded-full bg-blue-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-blue-600"
+      >
+        ✨ Free trial
+      </p>
     </div>
-    <span
-      class="rounded-full bg-green-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-green-600"
+    <p class="mt-6 flex items-baseline gap-x-1">
+      <span class="text-5xl font-bold tracking-tight">$9.99</span>
+      <span
+        class="text-sm font-semibold leading-6 text-slate-700 dark:text-slate-400"
+        >/month</span
+      >
+    </p>
+    <ul
+      role="list"
+      class="mt-8 space-y-3 text-sm leading-6 text-slate-700 dark:text-slate-400"
     >
-      Free
-    </span>
+      <li class="flex gap-x-3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-5 flex-none text-blue-600"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+          <path d="M9 12l2 2l4 -4"></path>
+        </svg>
+        7-day free trial
+      </li>
+      <li class="flex gap-x-3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-5 flex-none text-blue-600"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+          <path d="M9 12l2 2l4 -4"></path>
+        </svg>
+        1,000 tokens per month
+      </li>
+      <li class="flex gap-x-3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-5 flex-none text-blue-600"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+          <path d="M9 12l2 2l4 -4"></path>
+        </svg>
+        1 chatbot
+      </li>
+      <li class="flex gap-x-3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-5 flex-none text-blue-600"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+          <path d="M9 12l2 2l4 -4"></path>
+        </svg>
+        20 stored chats
+      </li>
+    </ul>
   </div>
-  <button
-    class="mt-6 w-full rounded-lg border border-slate-300 p-4 text-center text-sm font-medium text-slate-700 transition-colors duration-200 hover:bg-blue-600 hover:text-slate-50 focus:outline-none dark:border-slate-700 dark:text-slate-200"
-    type="button"
-  >
-    ✨ Upgrade to Pro
-  </button>
 </div>
