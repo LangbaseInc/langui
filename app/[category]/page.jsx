@@ -89,7 +89,7 @@ export default async function Page({ params }) {
             <BrandLogo withText={false} size={'16'} />
 
             <h1 className="mx-auto mt-10 max-w-6xl bg-gradient-to-r from-gray-200/60 via-gray-200 to-gray-200/60 bg-clip-text text-center text-4xl font-bold tracking-tight text-transparent sm:text-5xl md:text-6xl">
-              <span className="underline decoration-blue-600">55+</span>{' '}
+              <span className="underline decoration-blue-600">60+</span>{' '}
               responsive and dark mode enabled components to build your AI LLM
               apps.
             </h1>

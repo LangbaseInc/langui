@@ -35,7 +35,7 @@ export default function HeroBanner({ children, subtitle, title }) {
                 >
                   Browse AI components{' '}
                   <span className="ml-1 h-fit animate-pulse rounded-md bg-white bg-opacity-25 px-2 py-1 text-[10px] leading-3">
-                    55+
+                    60+
                   </span>
                 </Link>
 
