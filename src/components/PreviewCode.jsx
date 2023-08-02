@@ -45,19 +45,9 @@ export default function PreviewCode({
             </div>
           </div>
         </div>
-        // <button
-        //   className="absolute right-4 top-4"
-        //   onClick={() => handleSetIsJsx(!isJsx)}
-        // >
-        //   <ButtonStyle
-        //     buttonText={isJsx ? 'JSX' : 'HTML'}
-        //     buttonActive={isJsx}
-        //     isDark
-        //   />
-        // </button>
       )}
 
-      <pre className="h-[400px] overflow-auto rounded-lg p-4 ring-1 ring-slate-200/10 lg:h-[600px]">
+      <pre className="h-[400px] overflow-auto rounded-lg p-4 text-base ring-1 ring-slate-200/10 lg:h-[600px]">
         <code className={`${isJsx ? 'language-jsx' : 'language-html'}`}>
           {componentCode}
         </code>
