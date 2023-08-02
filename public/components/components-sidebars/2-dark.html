@@ -1,4 +1,5 @@
 <aside class="flex">
+  <!-- First Column -->
   <div
     class="flex h-screen w-12 flex-col items-center space-y-8 border-r border-slate-300 bg-slate-50 py-8 dark:border-slate-700 dark:bg-slate-900 sm:w-16"
   >
@@ -44,7 +45,7 @@
     <!-- Conversations -->
     <a
       href="#"
-      class="rounded-lg bg-blue-100 p-1.5 text-blue-500 transition-colors duration-200 dark:bg-slate-800 dark:text-blue-600"
+      class="rounded-lg bg-blue-100 p-1.5 text-blue-600 transition-colors duration-200 dark:bg-slate-800 dark:text-blue-600"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -133,14 +134,16 @@
   <div
     class="h-screen w-52 overflow-y-auto bg-slate-50 py-8 dark:bg-slate-900 sm:w-60"
   >
-    <h2
-      class="inline px-5 text-lg font-medium text-slate-800 dark:text-slate-200"
-    >
-      Chats
-    </h2>
-    <span class="rounded-full bg-blue-600 px-2 py-1 text-xs text-slate-200"
-      >24</span
-    >
+    <div class="flex items-start">
+      <h2
+        class="inline px-5 text-lg font-medium text-slate-800 dark:text-slate-200"
+      >
+        Chats
+      </h2>
+      <span class="rounded-full bg-blue-600 px-2 py-1 text-xs text-slate-200">
+        24
+      </span>
+    </div>
 
     <div class="mx-2 mt-8 space-y-4">
       <form>
@@ -156,7 +159,7 @@
           />
           <button
             type="submit"
-            class="absolute bottom-2 right-2.5 rounded-lg p-2 text-sm text-slate-500 hover:text-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:text-base"
+            class="absolute bottom-2 right-2.5 rounded-lg p-2 text-sm text-slate-500 hover:text-blue-700 focus:outline-none sm:text-base"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

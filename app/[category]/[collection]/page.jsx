@@ -17,10 +17,10 @@ export async function generateMetadata({ params }) {
   const { collectionData } = await getCollection(params)
 
   return {
-    title: `AI Tailwind ${collectionData.seo.title} | LangUI`,
+    title: `${collectionData.seo.title} | LangUI`,
     description: collectionData.seo.description,
     openGraph: {
-      title: `AI Tailwind ${collectionData.seo.title} | LangUI`,
+      title: `${collectionData.seo.title} | LangUI`,
       description: collectionData.seo.description,
       url: 'https://www.LangUI.dev/',
       siteName: 'LangUI',
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: `AI Tailwind ${collectionData.seo.title} | LangUI`,
+      title: `${collectionData.seo.title} | LangUI`,
       description: collectionData.seo.description,
     },
   }

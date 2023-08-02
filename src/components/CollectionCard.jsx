@@ -16,10 +16,11 @@ export default function CollectionCard({ componentData }) {
     PromptSuggestions: Icons.PromptSuggestions,
     PromptMessages: Icons.PromptMessages,
     PromptInputs: Icons.PromptInputs,
+    PromptsCards: Icons.PromptsCards,
+    PromptHistoryPanels: Icons.PromptHistoryPanels,
     Pricing: Icons.Pricing,
     Toggles: Icons.Toggles,
     Sidebars: Icons.Sidebars,
-    PromptsCards: Icons.PromptsCards,
     CopytoClipboard: Icons.Copy,
   }
   const Icon = IconData[componentData.title.replace(/\s/g, '')]
