@@ -21,7 +21,7 @@
 
 [LangUI](https://www.LangUI.dev) is an Open Source Tailwind library with free components tailored for your AI and GPT projects. It offers a collection of beautiful, ready-to-use components to enhance the user interface of your AI applications, allowing you to focus on building the next best project while leaving the UI to LangUI.
 
-⭐️ LangUI is Open Source and its components are completely free. Please star it to show your support!
+⭐️ LangUI is Open Source and its 60+ components are completely free. Please star it to show your support!
 
 ## Documentation
 
@@ -68,6 +68,12 @@ Contributions to LangUI are highly welcome! Whether it's bug fixes, new componen
 ## License
 
 LangUI is licensed under the [MIT License](LICENSE).
+
+## Uses
+
+- [Shades of Purple Theme](https://shadesofpurple.pro/) by [Ahmad Awais](https://ahmadawais.com/) for syntax highlighting
+
+- [Tabler Icons](https://tabler-icons.io/)
 
 ---
 
