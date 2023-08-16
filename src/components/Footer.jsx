@@ -20,7 +20,8 @@ export default function Footer() {
             <li className="relative inline-block pr-8 before:absolute before:right-3 before:top-1/2 before:-translate-y-1/2 before:text-slate-300 before:content-['/'] last:pr-0 last-of-type:before:hidden dark:before:text-slate-600">
               <Link
                 className="inline-flex gap-x-2 text-sm text-slate-400 hover:text-slate-200"
-                href="#"
+                href="https://github.com/ahmadbilaldev/langui"
+                target="_blank"
               >
                 GitHub
               </Link>
@@ -29,6 +30,7 @@ export default function Footer() {
               <Link
                 className="inline-flex gap-x-2 text-sm text-slate-400 hover:text-slate-200"
                 href="https://twitter.com/ahmadbilaldev"
+                target="_blank"
               >
                 Twitter
               </Link>
