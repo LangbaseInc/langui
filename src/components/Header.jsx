@@ -11,6 +11,7 @@ import HeaderMenuLinks from '@component/HeaderMenuLinks'
 import HeaderSearch from '@component/HeaderSearch'
 import IconGithub from '@component/IconGithub'
 import IconTwitter from '@component/IconTwitter'
+import ButtonGithubStars from './ButtonGithubStars'
 
 export default function Header() {
   const routerPathname = usePathname()
@@ -54,7 +55,7 @@ export default function Header() {
 
         <div className="flex items-center justify-end gap-4 sm:gap-8">
           <HeaderSearch />
-          <div className="hidden gap-4 sm:flex">
+          <div className="hidden items-center gap-4 sm:flex">
             <GithubLink />
             <TwitterLink />
           </div>
@@ -71,16 +72,19 @@ export default function Header() {
 
 function GithubLink() {
   return (
-    <a
-      href="https://github.com/ahmadbilaldev/gpt-ui"
-      rel="noreferrer"
-      target="_blank"
-      className="inline-block text-slate-200 hover:opacity-75"
-    >
-      <span className="sr-only"> GitHub </span>
+    <>
+      <a
+        href="https://github.com/ahmadbilaldev/gpt-ui"
+        rel="noreferrer"
+        target="_blank"
+        className="inline-block text-slate-200 hover:opacity-75 lg:hidden"
+      >
+        <span className="sr-only">GitHub</span>
 
-      <IconGithub />
-    </a>
+        <IconGithub />
+      </a>
+      <ButtonGithubStars />
+    </>
   )
 }
 
@@ -90,7 +94,7 @@ const TwitterLink = () => {
       href="https://twitter.com/ahmadbilaldev"
       rel="noreferrer"
       target="_blank"
-      className="inline-block text-slate-200 hover:opacity-75"
+      className="inline-block text-slate-200 transition-colors hover:text-blue-600"
     >
       <span className="sr-only"> Twitter </span>
 

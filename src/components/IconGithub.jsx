@@ -1,8 +1,8 @@
-export default function IconGithub() {
+export default function IconGithub({ size = '5' }) {
   return (
     <svg
       aria-hidden="true"
-      className="h-5 w-5"
+      className={`h-${size} w-${size}`}
       fill="currentColor"
       viewBox="0 0 24 24"
     >
