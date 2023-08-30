@@ -39,6 +39,12 @@ export function componentPreviewJsx(componentHtml) {
   clonedHtml = clonedHtml.replace(/stroke-opacity=/g, 'strokeOpacity=')
   clonedHtml = clonedHtml.replace(/<!--/g, '{/*')
   clonedHtml = clonedHtml.replace(/-->/g, '*/}')
+  clonedHtml = clonedHtml.replace(/background-image/g, 'backgroundImage')
+  clonedHtml = clonedHtml.replace(/url\(([^)]+)\);/g, `'url($1);'`)
+  clonedHtml = clonedHtml.replace(
+    /style="([\s\S]+?)"/g,
+    (_, content) => `style={{${content}}}`
+  )
 
   return clonedHtml
 }
