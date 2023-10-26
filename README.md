@@ -37,6 +37,28 @@ For documentation and components, visit [LangUI.dev](https://www.langui.dev/).
 
 - Paste the code into your project's HTML or React/Vue/Angular components. Done.
 
+## Docker deploy
+
+You can directly run using the image I have already built.
+```sh
+docker run -d -t -p 3000:3000 --name langui --restart=always docker.io/wenyang0/langui:latest
+```
+
+Or, you can manually compile it yourself if you prefer.
+
+```sh
+#clone the code 
+git clone https://github.com/ahmadbilaldev/langui.git
+
+#docker build 
+cd langui/
+docker build -t langui:v1 .
+
+#start server 
+docker run -d -t -p 3000:3000 --name langui --restart=always langui:v1
+```
+Finally, open your browser and access the service's address at http://serverIP:3000
+
 ## Features
 
 - **Copy & Paste Integration**: Zero installations or dependencies! Simply choose your desired component, copy, and paste it into your project.
