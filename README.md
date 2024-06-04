@@ -4,24 +4,28 @@
   </a>
 </div>
 
-<h3 align="center">The perfect UI for your AI</h3>
+<h3 align="center">The perfect UI for your AI — Build & Deploy your own ChatGPT</h3>
 
 <p align="center">
-  <a href="https://github.com/ahmadbilaldev/LangUI/stargazers">
-    <img src="https://img.shields.io/github/stars/ahmadbilaldev/LangUI.svg" alt="GitHub Stars">
+  <a href="https://github.com/LangbaseInc/LangUI/stargazers">
+    <img src="https://img.shields.io/github/stars/LangbaseInc/langui?style=for-the-badge&label=%E2%98%85%20STAR%20US&color=%23000000" alt="GitHub Stars">
   </a>
-  <a href="https://www.LangUI.dev">
-  <img src="https://vercelbadge.vercel.app/api/ahmadbilaldev/langui" alt="Vercel Deployment">
+  <a aria-label="License" href="https://github.com/LangbaseInc/langui/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=%23000000" alt="License">
   </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+  <a aria-label="Langbase logo" href="https://beta.langbase.com/">
+    <img src="https://img.shields.io/badge/DEPLOY%20ON-%E2%8C%98%20Langbase-000000.svg?style=for-the-badge&logo=%E2%8C%98%20Langbase&logoColor=000000">
   </a>
 </p>
 <hr/>
 
-[LangUI](https://www.LangUI.dev) is an Open Source Tailwind library with free components tailored for your AI and GPT projects. It offers a collection of beautiful, ready-to-use components to enhance the user interface of your AI applications, allowing you to focus on building the next best project while leaving the UI to LangUI.
+Trusted by some of the world's largest companies, developers, and investors, [LangUI](https://www.LangUI.dev) is a set of beautifully designed components that you can copy and paste to build your own ChatGPT. Free. Customizable. Open Source. 
 
-⭐️ LangUI is Open Source and its 60+ components are completely free. Please star it to show your support!
+[LangUI](https://www.LangUI.dev) is powered by Tailwind CSS with free components tailored for your AI and GPT projects. It offers a collection of beautiful, ready-to-use components to enhance the user interface of your AI applications, allowing you to focus on building the next best project while leaving the UI to LangUI.
+
+> ⭐️ LangUI is Open Source and its 60+ components are completely free. Please star it to show your support!
+
+![LangUI](./screenshots/1.png)
 
 ## Documentation
 
@@ -36,6 +40,8 @@ For documentation and components, visit [LangUI.dev](https://www.langui.dev/).
 - Copy the desired component's code in HTML or JSX from the LangUI documentation.
 
 - Paste the code into your project's HTML or React/Vue/Angular components. Done.
+
+- **⌘ Deploy**: You can [deploy](https://beta.langbase.com/) your own ChatGPT built with LangUI on [Langbase.com by creating a chat pipe](https://langbase.com/docs/pipe/quickstart).
 
 ## Docker deploy
 
@@ -73,13 +79,11 @@ Finally, open your browser and access the service's address at http://serverIP:3
 
 ## Screenshots
 
-![LangUI](./screenshots/1.png)
-
 ![Components](./screenshots/2.png)
 
 ![Preview Component](./screenshots/3.png)
 
-## Request a Component
+## Request a component
 
 Have an idea for a new component? We'd love to hear from you! Simply head over to our [GitHub repository](https://github.com/ahmadbilaldev/LangUI) and submit your component request. Let's collaborate and cook up something spicy together!
 
@@ -99,7 +103,7 @@ LangUI is licensed under the [MIT License](LICENSE).
 
 ## Authored By
 
-[Ahmad Bilal](https://github.com/ahmadbilaldev) – Founding Engineer at Langbase
+Originally authored by [Ahmad Bilal](https://github.com/ahmadbilaldev) – Founding Engineer at Langbase.
 
 For questions, integrations, and other discussions, feel free to reach out. 
 
