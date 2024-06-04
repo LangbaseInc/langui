@@ -97,6 +97,10 @@ LangUI is licensed under the [MIT License](LICENSE).
 
 - [Tabler Icons](https://tabler-icons.io/)
 
+## Authored By
+
+- [Ahmad Bilal](https://github.com/ahmadbilaldev) – Founding Engineer at Langbase
+
 ---
 
 Enjoy using LangUI to build stunning UIs for your AI and GPT projects.
