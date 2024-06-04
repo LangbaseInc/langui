@@ -99,7 +99,16 @@ LangUI is licensed under the [MIT License](LICENSE).
 
 ## Authored By
 
-- [Ahmad Bilal](https://github.com/ahmadbilaldev) – Founding Engineer at Langbase
+[Ahmad Bilal](https://github.com/ahmadbilaldev) – Founding Engineer at Langbase
+
+For questions, integrations, and other discussions, feel free to reach out. 
+
+<a href="https://github.com/ahmadbilaldev" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>
+<a href="https://linkedin.com/in/ahmadbilaldev" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
 
 ---
 
