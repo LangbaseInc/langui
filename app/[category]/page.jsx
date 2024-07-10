@@ -1,5 +1,3 @@
-export const runtime = 'edge'
-
 import matter from 'gray-matter'
 import { join } from 'path'
 import { promises as fs } from 'fs'

@@ -1,5 +1,3 @@
-export const runtime = 'edge'
-
 import { NextResponse } from 'next/server'
 import matter from 'gray-matter'
 import { join } from 'path'

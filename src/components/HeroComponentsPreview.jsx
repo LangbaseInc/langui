@@ -13,15 +13,25 @@ export default function HeroComponentsPreview() {
         <div className="flex items-center justify-between">
           <div className="flex">
             <div className="relative inline-flex">
-              <span className="absolute bottom-0 right-2 -mr-1 -mt-1 flex h-3 w-3">
+              <span className="absolute bottom-0 right-2 -mr-2 -mt-1 flex h-3 w-3">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
                 <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
               </span>
-              <img
-                src="https://source.unsplash.com/40x40/?portrait"
-                alt="user"
-                className="h-10 w-10 rounded-full bg-slate-400 dark:border-slate-700"
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="flex h-10 w-10 rounded-full bg-blue-600 p-2 text-slate-200 dark:border-slate-700"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M18.8864 2.34512C18.8642 2.14869 18.6981 2.0002 18.5004 2C18.3027 1.9998 18.1363 2.14794 18.1137 2.34433C18.0082 3.25861 17.7367 3.88584 17.3113 4.31127C16.8858 4.7367 16.2586 5.00822 15.3443 5.11367C15.1479 5.13632 14.9998 5.30271 15 5.5004C15.0002 5.69809 15.1487 5.86417 15.3451 5.88642C16.2439 5.98823 16.8855 6.25969 17.3217 6.68804C17.7556 7.11407 18.0322 7.740 41 18.1126 8.64552C18.1305 8.84634 18.2988 9.00023 18.5004 9C18.702 8.99977 18.8701 8.84551 18.8874 8.64465C18.9645 7.75483 19.2409 7.11438 19.6776 6.67764C20.1144 6.24091 20.7548 5.96446 21.6446 5.88744C21.8455 5.87005 21.9998 5.70205 22 5.50044C22.0002 5.29883 21.8463 5.13048 21.6455 5.11264C20.7404 5.03224 20.1141 4.75557 19.688 4.3217C19.2597 3.88545 18.9882 3.24394 18.8864 2.34512Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M11.9936 4.88745C11.9364 4.38234 11.5094 4.00052 11.001 4C10.4927 3.99948 10.0648 4.38042 10.0066 4.88542C9.73542 7.23644 9.03724 8.84929 7.94327 9.94327C6.8493 11.0372 5.23644 11.7354 2.88542 12.0066C2.38042 12.0648 1.99948 12.4927 2 13.001C2.00052 13.5094 2.38234 13.9364 2.88745 13.9936C5.19871 14.2554 6.8483 14.9535 7.97008 16.055C9.08576 17.1505 9.79718 18.761 10.0039 21.0885C10.0498 21.6049 10.4827 22.0006 11.0011 22C11.5196 21.9994 11.9516 21.6027 11.9963 21.0862C12.1943 18.7981 12.9052 17.1513 14.0282 16.0282C15.1513 14.9052 16.7981 14.1943 19.0862 13.9963C19.6027 13.9516 19.9994 13.5196 20 13.0011C20.0006 12.4827 19.6049 12.0498 19.0885 12.0039C16.761 11.7972 15.1505 11.0858 14.055 9.97008C12.9535 8.8483 12.2554 7.19871 11.9936 4.88745Z"
+                  fill="currentColor"
+                />
+              </svg>
             </div>
             <div className="ml-4 flex flex-col gap-y-2">
               <h3 className="text-sm font-bold text-slate-900 dark:text-slate-200">
